@@ -1,12 +1,7 @@
 import { router } from '@kit.ArkUI'
-import { LOGIN_INFO, LoginInfoResponse } from '../../common/constants'
-
-interface UsageItem {
-  icon: Resource
-  name: string
-  value: string
-  unit: string
-}
+import { LOGIN_INFO, LoginInfoResponse } from '../../../common/constants'
+import { deviceInfo } from '@kit.BasicServicesKit';
+import { TitleRow, UsageColumn } from './comp'
 
 @Component
 export struct MyTabsComp {
@@ -21,57 +16,18 @@ export struct MyTabsComp {
   @State cpuUsage: number = 0
   @State statfsFreeSize: number = 0
 
-  // 标题行
-  @Builder
-  TitleRow(title = '', target = '') {
-    Row() {
-      Text(title)
-        .fontSize(18)
-        .fontWeight(500)
-        .fontColor($r('app.color.font'))
-      Navigator({ target: target }) {
-        Row({ space: 2 }) {
-          Text('查看')
-            .fontColor($r('app.color.font_sub'))
-            .fontSize(14)
-          Image($r('app.media.ic_public_arrow_right'))
-            .width(12)
-            .fillColor('#89939C')
-        }
-      }
-      .visibility(target ? Visibility.Visible : Visibility.None)
-    }
-    .width('100%')
-    .padding({ top: 40, bottom: 20 })
-    .justifyContent(FlexAlign.SpaceBetween)
+  /**
+   * 创建实例时
+   */
+  aboutToAppear(): void {
+    this.getDeviceInfo()
   }
 
-  // 占用率
-  @Builder
-  UsageColumn(item: UsageItem) {
-    Column({ space: 10 }) {
-      Image(item.icon)
-        .height(28)
-        .aspectRatio(1)
-      Text(item.name)
-        .fontSize(14)
-        .fontColor($r('app.color.font2'))
-      Text() {
-        Span(item.value)
-          .fontSize(26)
-          .fontWeight(500)
-        Span(' ')
-        Span(item.unit)
-      }
-      .fontSize(14)
-      .fontColor($r('app.color.font'))
-    }
-    .alignItems(HorizontalAlign.Start)
-    .width('100%')
-    .height(120)
-    .borderRadius(5)
-    .padding(10)
-    .backgroundColor($r('app.color.background'))
+  /**
+   * 获取设备信息
+   */
+  getDeviceInfo=()=>{
+    this.deviceName=deviceInfo.marketName
   }
 
   build() {
@@ -131,14 +87,20 @@ export struct MyTabsComp {
 
         // 硬件信息
         Column() {
-          this.TitleRow(this.deviceName, 'pages/Hardware/HardwareIndexPage')
+          TitleRow({
+            title:this.deviceName,
+            target:'pages/Hardware/HardwareIndexPage'
+          }
+          )
           GridRow({ columns: 3, gutter: 10 }) {
             GridCol() {
-              this.UsageColumn({
-                icon: $r('app.media.ic_my_cpu'),
-                name: 'CPU占用',
-                value: this.cpuUsage.toFixed(0),
-                unit: '%'
+              UsageColumn({
+                item:{
+                  icon: $r('app.media.ic_my_cpu') ,
+                  name: 'CPU占用',
+                  value: this.cpuUsage.toFixed(0),
+                  unit: '%'
+                }
               })
             }
             .onClick(() => {
@@ -146,11 +108,13 @@ export struct MyTabsComp {
             })
 
             GridCol() {
-              this.UsageColumn({
-                icon: $r('app.media.ic_my_ram'),
-                name: '内存占用',
-                value: this.memorySize.toFixed(0),
-                unit: 'M'
+              UsageColumn({
+                item:{
+                  icon: $r('app.media.ic_my_ram'),
+                  name: '内存占用',
+                  value: this.memorySize.toFixed(0),
+                  unit: 'M'
+                }
               })
             }
             .onClick(() => {
@@ -158,11 +122,13 @@ export struct MyTabsComp {
             })
 
             GridCol() {
-              this.UsageColumn({
-                icon: $r('app.media.ic_my_storage'),
-                name: '剩余存储',
-                value: this.statfsFreeSize.toFixed(0),
-                unit: 'GB'
+              UsageColumn({
+                item:{
+                  icon: $r('app.media.ic_my_storage'),
+                  name: '剩余存储',
+                  value: this.statfsFreeSize.toFixed(0),
+                  unit: 'GB'
+                }
               })
             }
             .onClick(() => {
@@ -174,7 +140,10 @@ export struct MyTabsComp {
 
         // 电池管家
         Column() {
-          this.TitleRow('电池管家', 'pages/Battery/BatteryIndexPage')
+          TitleRow({
+            title: '电池管家',
+            target: 'pages/Battery/BatteryIndexPage'
+          })
           Column() {
             Row() {
               Text(`电池剩余${this.batteryState}%`)

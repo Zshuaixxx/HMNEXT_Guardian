@@ -1,7 +1,5 @@
 import { themeManager } from '../manager';
-import { GuardTabsComp } from './Tabs/GuardTabsComp';
-import { HomeTabsComp } from './Tabs/HomeTabsComp';
-import { MyTabsComp } from './Tabs/MyTabsComp';
+import {GuardTabsComp,HomeTabsComp,MyTabsComp} from './Tabs/index'
 
 @Entry
 @Component
