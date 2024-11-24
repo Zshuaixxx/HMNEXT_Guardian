@@ -1,6 +1,9 @@
 import { router } from '@kit.ArkUI'
 import { deviceInfo } from '@kit.BasicServicesKit';
 import { hidebug } from '@kit.PerformanceAnalysisKit';
+import { common } from '@kit.AbilityKit';
+import { statfs } from '@kit.CoreFileKit';
+import { batteryInfo } from '@kit.BasicServicesKit';
 import { LOGIN_INFO, LoginInfoResponse } from '../../../common/constants'
 import { TitleRow, UsageColumn } from './comp'
 
@@ -15,6 +18,9 @@ export struct MyTabsComp {
    * 设备名称
    */
   @State deviceName: string = ''
+  /**
+   * 系统剩余电量百分比信息
+   */
   @State batteryState: number = 0
   /**
    * 当前进程使用的内存
@@ -24,6 +30,9 @@ export struct MyTabsComp {
    * 当前进程CPU使用率
    */
   @State cpuUsage: number = 0
+  /**
+   * 系统剩余可用磁盘大小
+   */
   @State statfsFreeSize: number = 0
 
   /**
@@ -32,20 +41,36 @@ export struct MyTabsComp {
   aboutToAppear(): void {
     this.getDeviceInfo()
     this.getDebugInfo()
+    this.getStatfsInfo()
+    this.getBatteryStateInfo()
   }
 
   /**
    * 获取设备信息
    */
-  getDeviceInfo=()=>{
-    this.deviceName=deviceInfo.marketName
+  getDeviceInfo = () => {
+    this.deviceName = deviceInfo.marketName
   }
   /**
    * 获取当前进程的信息
    */
-  getDebugInfo=()=>{
-    this.cpuUsage=hidebug.getCpuUsage()*100
-    this.memorySize=Number(hidebug.getPss()) /1000
+  getDebugInfo = () => {
+    this.cpuUsage = hidebug.getCpuUsage() * 100
+    this.memorySize = Number(hidebug.getPss()) / 1000
+  }
+  /**
+   * 获取文件系统储存信息
+   */
+  getStatfsInfo = () => {
+    let context = getContext(this) as common.UIAbilityContext;
+    let path = context.filesDir;
+    this.statfsFreeSize = statfs.getFreeSizeSync(path) / (1000 * 1000 * 1000);
+  }
+  /**
+   * 获取系统剩余电量百分比信息
+   */
+  getBatteryStateInfo = () => {
+    this.batteryState = batteryInfo.batterySOC
   }
 
   build() {
@@ -106,15 +131,15 @@ export struct MyTabsComp {
         // 硬件信息
         Column() {
           TitleRow({
-            title:this.deviceName,
-            target:'pages/Hardware/HardwareIndexPage'
+            title: this.deviceName,
+            target: 'pages/Hardware/HardwareIndexPage'
           }
           )
           GridRow({ columns: 3, gutter: 10 }) {
             GridCol() {
               UsageColumn({
-                item:{
-                  icon: $r('app.media.ic_my_cpu') ,
+                item: {
+                  icon: $r('app.media.ic_my_cpu'),
                   name: 'CPU占用',
                   value: this.cpuUsage.toFixed(0),
                   unit: '%'
@@ -127,7 +152,7 @@ export struct MyTabsComp {
 
             GridCol() {
               UsageColumn({
-                item:{
+                item: {
                   icon: $r('app.media.ic_my_ram'),
                   name: '内存占用',
                   value: this.memorySize.toFixed(0),
@@ -141,10 +166,10 @@ export struct MyTabsComp {
 
             GridCol() {
               UsageColumn({
-                item:{
+                item: {
                   icon: $r('app.media.ic_my_storage'),
                   name: '剩余存储',
-                  value: this.statfsFreeSize.toFixed(0),
+                  value: this.statfsFreeSize.toFixed(1),
                   unit: 'GB'
                 }
               })
