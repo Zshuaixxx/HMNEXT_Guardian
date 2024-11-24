@@ -1,6 +1,7 @@
 import { router } from '@kit.ArkUI'
-import { LOGIN_INFO, LoginInfoResponse } from '../../../common/constants'
 import { deviceInfo } from '@kit.BasicServicesKit';
+import { hidebug } from '@kit.PerformanceAnalysisKit';
+import { LOGIN_INFO, LoginInfoResponse } from '../../../common/constants'
 import { TitleRow, UsageColumn } from './comp'
 
 @Component
@@ -10,9 +11,18 @@ export struct MyTabsComp {
   @StorageLink('topHeight') topHeight: number = 0
   // @Provide 装饰器和 @Consume 装饰器：与后代组件双向同步
   @Consume currentIndex: number
+  /**
+   * 设备名称
+   */
   @State deviceName: string = ''
   @State batteryState: number = 0
+  /**
+   * 当前进程使用的内存
+   */
   @State memorySize: number = 0
+  /**
+   * 当前进程CPU使用率
+   */
   @State cpuUsage: number = 0
   @State statfsFreeSize: number = 0
 
@@ -21,6 +31,7 @@ export struct MyTabsComp {
    */
   aboutToAppear(): void {
     this.getDeviceInfo()
+    this.getDebugInfo()
   }
 
   /**
@@ -28,6 +39,13 @@ export struct MyTabsComp {
    */
   getDeviceInfo=()=>{
     this.deviceName=deviceInfo.marketName
+  }
+  /**
+   * 获取当前进程的信息
+   */
+  getDebugInfo=()=>{
+    this.cpuUsage=hidebug.getCpuUsage()*100
+    this.memorySize=Number(hidebug.getPss()) /1000
   }
 
   build() {
