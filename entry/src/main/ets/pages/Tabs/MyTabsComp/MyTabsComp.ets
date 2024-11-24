@@ -13,7 +13,7 @@ export struct MyTabsComp {
   @StorageLink(LOGIN_INFO) loginInfo: LoginInfoResponse = {}
   @StorageLink('topHeight') topHeight: number = 0
   // @Provide 装饰器和 @Consume 装饰器：与后代组件双向同步
-  @Consume currentIndex: number
+  @Consume @Watch('onTabsChanged') currentIndex: number
   /**
    * 设备名称
    */
@@ -43,6 +43,17 @@ export struct MyTabsComp {
     this.getDebugInfo()
     this.getStatfsInfo()
     this.getBatteryStateInfo()
+  }
+
+  /**
+   * 监听tabbar切换回调函数
+   */
+  onTabsChanged() {
+    if (this.currentIndex === 2) {
+      this.getDebugInfo()
+      this.getStatfsInfo()
+      this.getBatteryStateInfo()
+    }
   }
 
   /**
