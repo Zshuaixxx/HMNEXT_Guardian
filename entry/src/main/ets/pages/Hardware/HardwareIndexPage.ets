@@ -2,6 +2,7 @@ import { NavigationTitleBuilder } from '../../common/builders';
 import { SENSOR_NAME_LIST, SensorName } from '../../common/constants';
 import { themeManager } from '../../manager';
 
+//TODO XX 详细硬件信息获取
 @Entry
 @Component
 struct HardwareIndexPage {
