@@ -9410,3 +9410,1662 @@ at C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\de
 [2024-11-24T14:46:07.120] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
 [2024-11-24T14:46:07.120] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
 [2024-11-24T14:46:07.121] [DEBUG] debug-file - worker[14] exits with exit code 1.
+[2024-11-24T15:01:36.590] [DEBUG] debug-file - session manager: set active socket. socketId=a9x0qy4NdcZLMziHAAAR
+[2024-11-24T15:01:36.596] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-11-24T15:01:36.614] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2024-11-24T15:01:36.626] [DEBUG] debug-file - Cache service initialization finished in 13 ms 
+[2024-11-24T15:01:36.644] [DEBUG] debug-file - hvigorfile, resolving C:\Users\ZUO\Desktop\HMNEXT_Guardian\hvigorfile.ts
+[2024-11-24T15:01:36.650] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2024-11-24T15:01:36.650] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2024-11-24T15:01:36.660] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2024-11-24T15:01:36.660] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2024-11-24T15:01:36.660] [DEBUG] debug-file - Product 'default' build option: {}
+[2024-11-24T15:01:36.660] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2024-11-24T15:01:36.662] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2024-11-24T15:01:36.664] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2024-11-24T15:01:36.680] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2024-11-24T15:01:36.702] [DEBUG] debug-file - Sdk init in 36 ms 
+[2024-11-24T15:01:36.734] [DEBUG] debug-file - Project task initialization takes 31 ms 
+[2024-11-24T15:01:36.734] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2024-11-24T15:01:36.734] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\ZUO\Desktop\HMNEXT_Guardian\hvigorfile.ts
+[2024-11-24T15:01:36.734] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\ZUO\Desktop\HMNEXT_Guardian\hvigorfile.ts
+[2024-11-24T15:01:36.741] [DEBUG] debug-file - hvigorfile, resolving C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\hvigorfile.ts
+[2024-11-24T15:01:36.745] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2024-11-24T15:01:36.746] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2024-11-24T15:01:36.756] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2024-11-24T15:01:36.756] [DEBUG] debug-file - Target 'default' config: {}
+[2024-11-24T15:01:36.756] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2024-11-24T15:01:36.756] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2024-11-24T15:01:36.756] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2024-11-24T15:01:36.756] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2024-11-24T15:01:36.756] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2024-11-24T15:01:36.762] [DEBUG] debug-file - Module entry task initialization takes 3 ms 
+[2024-11-24T15:01:36.762] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2024-11-24T15:01:36.762] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\hvigorfile.ts
+[2024-11-24T15:01:36.762] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\hvigorfile.ts
+[2024-11-24T15:01:36.778] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 15 ms 
+[2024-11-24T15:01:36.779] [DEBUG] debug-file - project has submodules:entry
+[2024-11-24T15:01:36.781] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2024-11-24T15:01:36.788] [DEBUG] debug-file - load to the disk finished
+[2024-11-24T15:01:36.802] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:01:36.803] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:01:36.803] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:01:36.804] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:01:36.805] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:01:36.806] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:01:36.808] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:01:36.809] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:01:36.810] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:01:36.810] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:01:36.811] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:01:36.812] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:01:36.813] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:01:36.814] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:01:36.815] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:01:36.815] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:01:36.816] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:01:36.817] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:01:36.818] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:01:36.819] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:01:36.820] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:01:36.821] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:01:36.822] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:01:36.823] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:01:36.824] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:01:36.826] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:01:36.828] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:01:36.829] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:01:36.830] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:01:36.831] [DEBUG] debug-file - Module HMNEXT_Guardian Collected Dependency: C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\dayjs@1.11.7\oh_modules\dayjs,C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+crypto-js@2.0.4-rc.1\oh_modules\@ohos\crypto-js,C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@wolfx+lodash@4.17.21-rc.2\oh_modules\@wolfx\lodash,C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios
+[2024-11-24T15:01:36.831] [DEBUG] debug-file - Module HMNEXT_Guardian's total dependency: 4
+[2024-11-24T15:01:36.834] [DEBUG] debug-file - Module entry Collected Dependency: C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\dayjs@1.11.7\oh_modules\dayjs,C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+crypto-js@2.0.4-rc.1\oh_modules\@ohos\crypto-js,C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@wolfx+lodash@4.17.21-rc.2\oh_modules\@wolfx\lodash,C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios
+[2024-11-24T15:01:36.834] [DEBUG] debug-file - Module entry's total dependency: 4
+[2024-11-24T15:01:36.837] [DEBUG] debug-file - Configuration phase cost:202 ms 
+[2024-11-24T15:01:36.838] [DEBUG] debug-file - Configuration task cost before running: 238 ms 
+[2024-11-24T15:01:36.840] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:01:36.840] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:01:36.842] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2024-11-24T15:01:36.849] [DEBUG] debug-file - Incremental task entry:default@PreBuild pre-execution cost: 4 ms .
+[2024-11-24T15:01:36.849] [DEBUG] debug-file - entry : default@PreBuild cost memory 0.2662811279296875
+[2024-11-24T15:01:36.851] [INFO] debug-file - UP-TO-DATE :entry:default@PreBuild...  
+[2024-11-24T15:01:36.853] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:01:36.853] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:01:36.854] [DEBUG] debug-file - Executing task :entry:default@GenerateMetadata
+[2024-11-24T15:01:36.855] [DEBUG] debug-file - Incremental task entry:default@GenerateMetadata pre-execution cost: 2 ms .
+[2024-11-24T15:01:36.856] [DEBUG] debug-file - entry : default@GenerateMetadata cost memory 0.130523681640625
+[2024-11-24T15:01:36.856] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateMetadata...  
+[2024-11-24T15:01:36.857] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:01:36.858] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:01:36.859] [DEBUG] debug-file - Executing task :entry:default@ConfigureCmake
+[2024-11-24T15:01:36.859] [DEBUG] debug-file - entry : default@ConfigureCmake cost memory 0.0130615234375
+[2024-11-24T15:01:36.859] [DEBUG] debug-file - runTaskFromQueue task cost before running: 260 ms 
+[2024-11-24T15:01:36.860] [INFO] debug-file - Finished :entry:default@ConfigureCmake... after 1 ms 
+[2024-11-24T15:01:36.861] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:01:36.861] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:01:36.863] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2024-11-24T15:01:36.867] [DEBUG] debug-file - Incremental task entry:default@MergeProfile pre-execution cost: 4 ms .
+[2024-11-24T15:01:36.867] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.1377105712890625
+[2024-11-24T15:01:36.868] [INFO] debug-file - UP-TO-DATE :entry:default@MergeProfile...  
+[2024-11-24T15:01:36.870] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:01:36.870] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:01:36.871] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2024-11-24T15:01:36.872] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile pre-execution cost: 2 ms .
+[2024-11-24T15:01:36.873] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.113861083984375
+[2024-11-24T15:01:36.873] [INFO] debug-file - UP-TO-DATE :entry:default@CreateBuildProfile...  
+[2024-11-24T15:01:36.874] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:01:36.874] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:01:36.875] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2024-11-24T15:01:36.875] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.0131988525390625
+[2024-11-24T15:01:36.875] [DEBUG] debug-file - runTaskFromQueue task cost before running: 275 ms 
+[2024-11-24T15:01:36.875] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2024-11-24T15:01:36.876] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:01:36.876] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:01:36.883] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2024-11-24T15:01:36.884] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory -1.5735397338867188
+[2024-11-24T15:01:36.884] [DEBUG] debug-file - runTaskFromQueue task cost before running: 284 ms 
+[2024-11-24T15:01:36.884] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 2 ms 
+[2024-11-24T15:01:36.886] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:01:36.886] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:01:36.887] [DEBUG] debug-file - Executing task :entry:default@ProcessIntegratedHsp
+[2024-11-24T15:01:36.888] [DEBUG] debug-file - entry:default@ProcessIntegratedHsp is not up-to-date, since the output file 'C:\Users\ZUO\Desktop\HMNEXT_Guardian\build\cache\default\integrated_hsp\integratedHspCache.json' does not exist.
+[2024-11-24T15:01:36.888] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp pre-execution cost: 1 ms .
+[2024-11-24T15:01:36.888] [DEBUG] debug-file - entry : default@ProcessIntegratedHsp cost memory 0.09055328369140625
+[2024-11-24T15:01:36.889] [DEBUG] debug-file - runTaskFromQueue task cost before running: 289 ms 
+[2024-11-24T15:01:36.889] [INFO] debug-file - Finished :entry:default@ProcessIntegratedHsp... after 2 ms 
+[2024-11-24T15:01:36.890] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:01:36.890] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:01:36.891] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2024-11-24T15:01:36.891] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory 0.0140228271484375
+[2024-11-24T15:01:36.891] [DEBUG] debug-file - runTaskFromQueue task cost before running: 291 ms 
+[2024-11-24T15:01:36.891] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 1 ms 
+[2024-11-24T15:01:36.893] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:01:36.893] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:01:36.893] [DEBUG] debug-file - Executing task :entry:default@MakePackInfo
+[2024-11-24T15:01:36.895] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo pre-execution cost: 2 ms .
+[2024-11-24T15:01:36.896] [DEBUG] debug-file - entry : default@MakePackInfo cost memory 0.12957763671875
+[2024-11-24T15:01:36.896] [INFO] debug-file - UP-TO-DATE :entry:default@MakePackInfo...  
+[2024-11-24T15:01:36.898] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:01:36.898] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:01:36.899] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2024-11-24T15:01:36.900] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile pre-execution cost: 2 ms .
+[2024-11-24T15:01:36.900] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 0.0585174560546875
+[2024-11-24T15:01:36.900] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessProfile...  
+[2024-11-24T15:01:36.902] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:01:36.902] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:01:36.903] [DEBUG] debug-file - Executing task :entry:default@SyscapTransform
+[2024-11-24T15:01:36.904] [DEBUG] debug-file - entry:default@SyscapTransform is not up-to-date, since the output file 'C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\syscap\default\rpcid.sc' does not exist.
+[2024-11-24T15:01:36.904] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform pre-execution cost: 2 ms .
+[2024-11-24T15:01:36.904] [DEBUG] debug-file - entry : default@SyscapTransform cost memory 0.12042999267578125
+[2024-11-24T15:01:36.905] [DEBUG] debug-file - runTaskFromQueue task cost before running: 305 ms 
+[2024-11-24T15:01:36.905] [INFO] debug-file - Finished :entry:default@SyscapTransform... after 2 ms 
+[2024-11-24T15:01:36.907] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:01:36.907] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:01:36.909] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2024-11-24T15:01:36.913] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap pre-execution cost: 4 ms .
+[2024-11-24T15:01:36.913] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.21033477783203125
+[2024-11-24T15:01:36.915] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessRouterMap...  
+[2024-11-24T15:01:36.917] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:01:36.917] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:01:36.917] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithNinja
+[2024-11-24T15:01:36.918] [DEBUG] debug-file - entry : default@BuildNativeWithNinja cost memory 0.03185272216796875
+[2024-11-24T15:01:36.918] [DEBUG] debug-file - runTaskFromQueue task cost before running: 318 ms 
+[2024-11-24T15:01:36.918] [INFO] debug-file - Finished :entry:default@BuildNativeWithNinja... after 1 ms 
+[2024-11-24T15:01:36.920] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:01:36.920] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:01:36.920] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@ProcessResource
+[2024-11-24T15:01:36.924] [DEBUG] debug-file - Executing task :entry:default@ProcessResource
+[2024-11-24T15:01:36.924] [DEBUG] debug-file - Incremental task entry:default@ProcessResource pre-execution cost: 1 ms .
+[2024-11-24T15:01:36.924] [DEBUG] debug-file - entry : default@ProcessResource cost memory 0.12195587158203125
+[2024-11-24T15:01:36.927] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessResource...  
+[2024-11-24T15:01:36.928] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:01:36.928] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:01:36.940] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2024-11-24T15:01:36.957] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson pre-execution cost: 10 ms .
+[2024-11-24T15:01:36.957] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.6957778930664062
+[2024-11-24T15:01:36.963] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateLoaderJson...  
+[2024-11-24T15:01:36.965] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:01:36.965] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:01:36.970] [DEBUG] debug-file - Executing task :entry:default@ProcessLibs
+[2024-11-24T15:01:36.974] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs pre-execution cost: 4 ms .
+[2024-11-24T15:01:36.974] [DEBUG] debug-file - entry : default@ProcessLibs cost memory 0.12177276611328125
+[2024-11-24T15:01:36.975] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessLibs...  
+[2024-11-24T15:01:36.977] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:01:36.977] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:01:36.978] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@CompileResource
+[2024-11-24T15:01:36.981] [DEBUG] debug-file - Executing task :entry:default@CompileResource
+[2024-11-24T15:01:37.063] [DEBUG] debug-file - Incremental task entry:default@CompileResource pre-execution cost: 82 ms .
+[2024-11-24T15:01:37.064] [DEBUG] debug-file - entry : default@CompileResource cost memory 0.5276565551757812
+[2024-11-24T15:01:37.065] [INFO] debug-file - UP-TO-DATE :entry:default@CompileResource...  
+[2024-11-24T15:01:37.066] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:01:37.067] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:01:37.069] [DEBUG] debug-file - Executing task :entry:default@DoNativeStrip
+[2024-11-24T15:01:37.070] [DEBUG] debug-file - Incremental task entry:default@DoNativeStrip pre-execution cost: 2 ms .
+[2024-11-24T15:01:37.071] [DEBUG] debug-file - entry : default@DoNativeStrip cost memory 0.06047821044921875
+[2024-11-24T15:01:37.071] [INFO] debug-file - UP-TO-DATE :entry:default@DoNativeStrip...  
+[2024-11-24T15:01:37.073] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:01:37.073] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:01:37.076] [DEBUG] debug-file - Executing task :entry:default@CompileArkTS
+[2024-11-24T15:01:37.127] [DEBUG] debug-file - entry:default@CompileArkTS is not up-to-date, since the input file 'C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\src\main\ets' has been changed.
+[2024-11-24T15:01:37.127] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS pre-execution cost: 42 ms .
+[2024-11-24T15:01:37.146] [DEBUG] debug-file - build config:
+[2024-11-24T15:01:37.146] [DEBUG] debug-file - {
+  moduleType: 'entry',
+  perf: 0,
+  targetName: '.default',
+  packageManagerType: 'ohpm',
+  localPropertiesPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\local.properties',
+  isPreview: false,
+  isOhosTest: false,
+  isLocalTest: false,
+  buildMode: 'Debug',
+  watchMode: 'false',
+  aceProfilePath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile',
+  etsLoaderPath: 'D:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader',
+  modulePath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry',
+  testFrameworkPar: {
+    testMode: undefined,
+    coveragePathFilter: undefined,
+    coverageMode: undefined
+  },
+  needCoverageInsert: false,
+  debugLine: false,
+  projectTopDir: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian',
+  compileSdkVersion: 12,
+  compatibleSdkVersion: 12,
+  compatibleSdkVersionStage: 'beta1',
+  bundleName: 'com.itheima.hm_guardian',
+  etsLoaderVersion: '5.0.0.71',
+  etsLoaderReleaseType: 'Release',
+  aotCompileMode: 'type',
+  apPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\modules.ap',
+  entryModuleName: 'entry',
+  entryModuleVersion: '1.0.0',
+  entryPackageName: 'entry',
+  allModuleNameHash: 'e46fcfd10deefe3368154df7a614adb3',
+  externalApiPaths: [
+    'D:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\hms\\ets'
+  ],
+  compilerTypes: undefined,
+  isCrossplatform: false,
+  hvigorPluginFile: undefined,
+  compilePluginPath: undefined,
+  buildGeneratedProfilePath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\generated\\profile\\default',
+  bundleType: 'app',
+  arkTSVersion: undefined,
+  apiVersion: 12,
+  needCompleteSourcesMap: false,
+  isFaMode: false,
+  strictMode: undefined,
+  buildDir: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build',
+  deviceTypes: [ 'phone' ],
+  useNormalizedOHMUrl: false,
+  pkgContextInfo: undefined,
+  ohPackagePathMap: {},
+  dependencyAliasMap: {},
+  permission: { requestPermissions: undefined, definePermissions: undefined },
+  integratedHsp: false,
+  projectArkOption: undefined,
+  sourceMapDir: undefined,
+  branchElimination: false,
+  transformLib: undefined,
+  caseSensitiveCheck: false,
+  tsImportSendable: false,
+  resolveConflictMode: true,
+  depName2RootPath: {},
+  rootPathSet: [ 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian' ],
+  useNativeResolver: true,
+  aceModuleJsonPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\res\\default\\module.json',
+  appResource: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\res\\default\\ResourceTable.txt',
+  rawFileResource: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\res\\default\\resources\\rawfile',
+  resourceTableHash: 'c968655ab29e904eb7c35069713eea9f',
+  runtimeOS: 'HarmonyOS',
+  sdkInfo: 'false:12:5.0.0.71:Release',
+  aceModuleRoot: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\src\\main\\ets',
+  compileMode: 'esmodule',
+  aceSuperVisualPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\src\\main\\supervisual',
+  aceBuildJson: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\loader\\default\\loader.json',
+  cachePath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule\\debug',
+  aceModuleBuild: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\loader_out\\default\\ets',
+  supportChunks: true,
+  declaredFilesPath: undefined,
+  pkgNameToPkgBriefInfo: {
+    '@ohos/crypto-js': {
+      pkgRoot: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\oh_modules\\.ohpm\\@ohos+crypto-js@2.0.4-rc.1\\oh_modules\\@ohos\\crypto-js',
+      pkgName: '@ohos/crypto-js',
+      sourceRoots: undefined
+    },
+    '@wolfx/lodash': {
+      pkgRoot: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\oh_modules\\.ohpm\\@wolfx+lodash@4.17.21-rc.2\\oh_modules\\@wolfx\\lodash',
+      pkgName: '@wolfx/lodash',
+      sourceRoots: undefined
+    },
+    '@ohos/axios': {
+      pkgRoot: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\oh_modules\\.ohpm\\@ohos+axios@2.2.0\\oh_modules\\@ohos\\axios',
+      pkgName: '@ohos/axios',
+      sourceRoots: undefined
+    },
+    entry: {
+      pkgRoot: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry',
+      originalSourceRoots: undefined,
+      sourceRoots: [Array],
+      pkgName: 'entry'
+    }
+  },
+  projectModel: {
+    'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\src\\main': {
+      moduleName: 'entry',
+      modulePkgPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry',
+      belongProjectPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian'
+    },
+    'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\src\\ohosTest': {
+      moduleName: 'entry_test',
+      modulePkgPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry',
+      belongProjectPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian'
+    },
+    'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry': {
+      moduleName: 'entry',
+      modulePkgPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry',
+      belongProjectPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian'
+    },
+    'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian': {
+      moduleName: 'HMNEXT_Guardian',
+      modulePkgPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian',
+      belongProjectPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian'
+    }
+  },
+  pkgJsonFileHash: 'cfd86348719fcac0c1411c8944b9e2d6',
+  allModulePaths: [ 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry' ],
+  routerMap: {},
+  obfuscationOptions: undefined,
+  compileBlockPkg: [],
+  overallProjectPaths: [ 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian' ],
+  mockParams: {
+    decorator: '@MockSetup',
+    packageName: '@ohos/hamock',
+    etsSourceRootPath: 'src/main/ets',
+    mockConfigPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\src\\mock\\mock-config.json5',
+    mockConfigKey2ModuleInfo: {}
+  },
+  otherPaths: {
+    'entry/*': [
+      '..\\*',
+      '..\\..\\..\\build\\default\\generated\\profile\\default\\*'
+    ]
+  },
+  collectImportersConfig: undefined
+}
+[2024-11-24T15:01:37.146] [DEBUG] debug-file - Compile arkts with external api path: D:\Program Files\Huawei\DevEco Studio\sdk\default\hms\ets
+[2024-11-24T15:01:37.147] [DEBUG] debug-file - default@CompileArkTS work[18] is submitted.
+[2024-11-24T15:01:37.148] [DEBUG] debug-file - default@CompileArkTS work[18] is pushed to ready queue.
+[2024-11-24T15:01:37.148] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2024-11-24T15:01:37.148] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2024-11-24T15:01:37.148] [DEBUG] debug-file - A work dispatched to worker[13] failed because unable to get work from ready queue.
+[2024-11-24T15:01:37.148] [DEBUG] debug-file - A work dispatched to worker[12] failed because unable to get work from ready queue.
+[2024-11-24T15:01:37.148] [DEBUG] debug-file - A work dispatched to worker[11] failed because unable to get work from ready queue.
+[2024-11-24T15:01:37.148] [DEBUG] debug-file - A work dispatched to worker[10] failed because unable to get work from ready queue.
+[2024-11-24T15:01:37.148] [DEBUG] debug-file - A work dispatched to worker[9] failed because unable to get work from ready queue.
+[2024-11-24T15:01:37.148] [DEBUG] debug-file - A work dispatched to worker[8] failed because unable to get work from ready queue.
+[2024-11-24T15:01:37.148] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2024-11-24T15:01:37.148] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2024-11-24T15:01:37.148] [DEBUG] debug-file - A work dispatched to worker[5] failed because unable to get work from ready queue.
+[2024-11-24T15:01:37.148] [DEBUG] debug-file - A work dispatched to worker[4] failed because unable to get work from ready queue.
+[2024-11-24T15:01:37.148] [DEBUG] debug-file - A work dispatched to worker[3] failed because unable to get work from ready queue.
+[2024-11-24T15:01:37.148] [DEBUG] debug-file - A work dispatched to worker[2] failed because unable to get work from ready queue.
+[2024-11-24T15:01:37.148] [DEBUG] debug-file - A work dispatched to worker[1] failed because unable to get work from ready queue.
+[2024-11-24T15:01:37.148] [DEBUG] debug-file - default@CompileArkTS work[18] has been dispatched to worker[0].
+[2024-11-24T15:01:37.148] [DEBUG] debug-file - default@CompileArkTS work[18] is dispatched.
+[2024-11-24T15:01:37.148] [DEBUG] debug-file - CopyResources startTime: 76991123974200
+[2024-11-24T15:01:37.148] [DEBUG] debug-file - default@CompileArkTS work[19] is submitted.
+[2024-11-24T15:01:37.149] [DEBUG] debug-file - default@CompileArkTS work[19] is pushed to ready queue.
+[2024-11-24T15:01:37.149] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2024-11-24T15:01:37.149] [DEBUG] debug-file - Create  resident worker with id: 14.
+[2024-11-24T15:01:37.149] [DEBUG] debug-file - default@CompileArkTS work[19] has been dispatched to worker[14].
+[2024-11-24T15:01:37.150] [DEBUG] debug-file - default@CompileArkTS work[19] is dispatched.
+[2024-11-24T15:01:37.150] [DEBUG] debug-file - entry : default@CompileArkTS cost memory 0.01593017578125
+[2024-11-24T15:01:37.151] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:01:37.151] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:01:37.155] [DEBUG] debug-file - Executing task :entry:default@BuildJS
+[2024-11-24T15:01:37.160] [DEBUG] debug-file - entry : default@BuildJS cost memory 0.1669158935546875
+[2024-11-24T15:01:37.160] [DEBUG] debug-file - runTaskFromQueue task cost before running: 560 ms 
+[2024-11-24T15:01:37.160] [INFO] debug-file - Finished :entry:default@BuildJS... after 5 ms 
+[2024-11-24T15:01:37.164] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:01:37.164] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:01:37.167] [DEBUG] debug-file - Executing task :entry:default@CacheNativeLibs
+[2024-11-24T15:01:37.170] [DEBUG] debug-file - Incremental task entry:default@CacheNativeLibs pre-execution cost: 3 ms .
+[2024-11-24T15:01:37.170] [DEBUG] debug-file - entry : default@CacheNativeLibs cost memory 0.07726287841796875
+[2024-11-24T15:01:37.171] [INFO] debug-file - UP-TO-DATE :entry:default@CacheNativeLibs...  
+[2024-11-24T15:01:38.111] [DEBUG] debug-file - worker[14] has one work done.
+[2024-11-24T15:01:38.111] [DEBUG] debug-file - CopyResources is end, endTime: 76992087331600
+[2024-11-24T15:01:38.112] [DEBUG] debug-file - default@CompileArkTS work[19] done.
+[2024-11-24T15:01:38.112] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2024-11-24T15:01:40.920] [DEBUG] debug-file - Ark compile task finished.finished time is 76994896352000
+[2024-11-24T15:01:40.921] [DEBUG] debug-file - worker[0] has one work done.
+[2024-11-24T15:01:40.993] [DEBUG] debug-file - default@CompileArkTS work[18] done.
+[2024-11-24T15:01:40.993] [DEBUG] debug-file - A work dispatched to worker[0] failed because unable to get work from ready queue.
+[2024-11-24T15:01:40.996] [INFO] debug-file - Finished :entry:default@CompileArkTS... after 3 s 917 ms 
+[2024-11-24T15:01:40.998] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:01:40.998] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:01:40.999] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgModuleJson
+[2024-11-24T15:01:41.001] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson pre-execution cost: 2 ms .
+[2024-11-24T15:01:41.002] [DEBUG] debug-file - entry : default@GeneratePkgModuleJson cost memory 0.091583251953125
+[2024-11-24T15:01:41.002] [INFO] debug-file - UP-TO-DATE :entry:default@GeneratePkgModuleJson...  
+[2024-11-24T15:01:41.004] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:01:41.004] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:01:41.008] [DEBUG] debug-file - Executing task :entry:default@PackageHap
+[2024-11-24T15:01:41.042] [DEBUG] debug-file - entry:default@PackageHap is not up-to-date, since the input file 'C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\loader_out\default\ets' has been changed.
+[2024-11-24T15:01:41.042] [DEBUG] debug-file - Incremental task entry:default@PackageHap pre-execution cost: 33 ms .
+[2024-11-24T15:01:41.044] [DEBUG] debug-file - Use tool [D:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\toolchains\lib\app_packing_tool.jar]
+ [
+  'java',
+  '-Dfile.encoding=GBK',
+  '-jar',
+  'D:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\lib\\app_packing_tool.jar',
+  '--mode',
+  'hap',
+  '--force',
+  'true',
+  '--lib-path',
+  'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\stripped_native_libs\\default',
+  '--json-path',
+  'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\package\\default\\module.json',
+  '--resources-path',
+  'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\res\\default\\resources',
+  '--index-path',
+  'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\res\\default\\resources.index',
+  '--pack-info-path',
+  'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\outputs\\default\\pack.info',
+  '--out-path',
+  'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\outputs\\default\\entry-default-unsigned.hap',
+  '--ets-path',
+  'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\loader_out\\default\\ets'
+]
+[2024-11-24T15:01:41.045] [DEBUG] debug-file - default@PackageHap work[20] is submitted.
+[2024-11-24T15:01:41.046] [DEBUG] debug-file - default@PackageHap work[20] is pushed to ready queue.
+[2024-11-24T15:01:41.046] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2024-11-24T15:01:41.046] [DEBUG] debug-file - default@PackageHap work[20] has been dispatched to worker[14].
+[2024-11-24T15:01:41.046] [DEBUG] debug-file - default@PackageHap work[20] is dispatched.
+[2024-11-24T15:01:41.048] [DEBUG] debug-file - entry : default@PackageHap cost memory -0.5051803588867188
+[2024-11-24T15:01:41.125] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 636989440,
+  heapTotal: 73424896,
+  heapUsed: 51953320,
+  external: 2624949,
+  arrayBuffers: 572647
+} os memoryUsage :13.521003723144531
+[2024-11-24T15:01:41.956] [DEBUG] debug-file - worker[14] has one work done.
+[2024-11-24T15:01:41.956] [DEBUG] debug-file - default@PackageHap work[20] done.
+[2024-11-24T15:01:41.956] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2024-11-24T15:01:41.960] [INFO] debug-file - Finished :entry:default@PackageHap... after 948 ms 
+[2024-11-24T15:01:41.962] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:01:41.962] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:01:41.965] [DEBUG] debug-file - Executing task :entry:default@SignHap
+[2024-11-24T15:01:41.965] [WARN] debug-file - Will skip sign 'hos_hap'. No signingConfigs profile is configured in current project.
+             If needed, configure the signingConfigs in C:\Users\ZUO\Desktop\HMNEXT_Guardian\build-profile.json5.
+[2024-11-24T15:01:41.966] [DEBUG] debug-file - entry:default@SignHap is not up-to-date, since the input file 'C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\outputs\default\entry-default-unsigned.hap' has been changed.
+[2024-11-24T15:01:41.966] [DEBUG] debug-file - Incremental task entry:default@SignHap pre-execution cost: 1 ms .
+[2024-11-24T15:01:41.966] [DEBUG] debug-file - entry : default@SignHap cost memory 0.1182708740234375
+[2024-11-24T15:01:41.966] [DEBUG] debug-file - runTaskFromQueue task cost before running: 5 s 367 ms 
+[2024-11-24T15:01:41.967] [INFO] debug-file - Finished :entry:default@SignHap... after 2 ms 
+[2024-11-24T15:01:41.968] [DEBUG] debug-file - Executing task :entry:assembleHap
+[2024-11-24T15:01:41.969] [DEBUG] debug-file - entry : assembleHap cost memory 0.01175689697265625
+[2024-11-24T15:01:41.969] [DEBUG] debug-file - runTaskFromQueue task cost before running: 5 s 369 ms 
+[2024-11-24T15:01:41.969] [INFO] debug-file - Finished :entry:assembleHap... after 1 ms 
+[2024-11-24T15:01:41.980] [DEBUG] debug-file - BUILD SUCCESSFUL in 5 s 380 ms 
+[2024-11-24T15:01:41.980] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreBuild is up-to-date.
+[2024-11-24T15:01:41.980] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateMetadata is up-to-date.
+[2024-11-24T15:01:41.980] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MergeProfile is up-to-date.
+[2024-11-24T15:01:41.980] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CreateBuildProfile is up-to-date.
+[2024-11-24T15:01:41.980] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache.
+[2024-11-24T15:01:41.980] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2024-11-24T15:01:41.981] [DEBUG] debug-file - Update task entry:default@ProcessIntegratedHsp output file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\build\cache\default\integrated_hsp\integratedHspCache.json cache.
+[2024-11-24T15:01:41.981] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp post-execution cost:1 ms .
+[2024-11-24T15:01:41.981] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MakePackInfo is up-to-date.
+[2024-11-24T15:01:41.981] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessProfile is up-to-date.
+[2024-11-24T15:01:41.982] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:D:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\toolchains\syscap_tool.exe cache by regenerate.
+[2024-11-24T15:01:41.982] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:D:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\ets\api\device-define cache by regenerate.
+[2024-11-24T15:01:41.982] [DEBUG] debug-file - Update task entry:default@SyscapTransform output file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\syscap\default\rpcid.sc cache.
+[2024-11-24T15:01:41.983] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform post-execution cost:2 ms .
+[2024-11-24T15:01:41.983] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessRouterMap is up-to-date.
+[2024-11-24T15:01:41.983] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessResource is up-to-date.
+[2024-11-24T15:01:41.983] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateLoaderJson is up-to-date.
+[2024-11-24T15:01:41.983] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessLibs is up-to-date.
+[2024-11-24T15:01:41.983] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CompileResource is up-to-date.
+[2024-11-24T15:01:41.983] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@DoNativeStrip is up-to-date.
+[2024-11-24T15:01:41.986] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\loader\default cache by regenerate.
+[2024-11-24T15:01:41.987] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+crypto-js@2.0.4-rc.1\oh_modules\@ohos\crypto-js\index.ts cache by regenerate.
+[2024-11-24T15:01:41.987] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@wolfx+lodash@4.17.21-rc.2\oh_modules\@wolfx\lodash\src\main\ets\lodash.min.js cache by regenerate.
+[2024-11-24T15:01:41.988] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios\index.js cache by regenerate.
+[2024-11-24T15:01:41.988] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@wolfx+lodash@4.17.21-rc.2\oh_modules\@wolfx\lodash\src\main\ets cache by regenerate.
+[2024-11-24T15:01:41.989] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios\src\main\ets cache by regenerate.
+[2024-11-24T15:01:42.002] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\resources\rawfile cache by regenerate.
+[2024-11-24T15:01:42.003] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2024-11-24T15:01:42.003] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2024-11-24T15:01:42.003] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2024-11-24T15:01:42.004] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\src\main\ets cache from map.
+[2024-11-24T15:01:42.004] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2024-11-24T15:01:42.004] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\src\mock\mock-config.json5 cache by regenerate.
+[2024-11-24T15:01:42.005] [DEBUG] debug-file - Update task entry:default@CompileArkTS output file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\loader_out\default\ets cache.
+[2024-11-24T15:01:42.011] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS post-execution cost:29 ms .
+[2024-11-24T15:01:42.014] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\loader\default cache by regenerate.
+[2024-11-24T15:01:42.015] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+crypto-js@2.0.4-rc.1\oh_modules\@ohos\crypto-js\index.ts cache by regenerate.
+[2024-11-24T15:01:42.015] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@wolfx+lodash@4.17.21-rc.2\oh_modules\@wolfx\lodash\src\main\ets\lodash.min.js cache by regenerate.
+[2024-11-24T15:01:42.015] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios\index.js cache by regenerate.
+[2024-11-24T15:01:42.016] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+crypto-js@2.0.4-rc.1\oh_modules\@ohos\crypto-js\src\main\js cache by regenerate.
+[2024-11-24T15:01:42.017] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\resources\rawfile cache by regenerate.
+[2024-11-24T15:01:42.018] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2024-11-24T15:01:42.018] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2024-11-24T15:01:42.019] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2024-11-24T15:01:42.020] [DEBUG] debug-file - Update task entry:default@BuildJS output file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\loader_out\default\js cache.
+[2024-11-24T15:01:42.020] [DEBUG] debug-file - Incremental task entry:default@BuildJS post-execution cost:9 ms .
+[2024-11-24T15:01:42.020] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CacheNativeLibs is up-to-date.
+[2024-11-24T15:01:42.020] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GeneratePkgModuleJson is up-to-date.
+[2024-11-24T15:01:42.021] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\stripped_native_libs\default cache by regenerate.
+[2024-11-24T15:01:42.022] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2024-11-24T15:01:42.022] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\resources cache by regenerate.
+[2024-11-24T15:01:42.051] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\resources.index cache by regenerate.
+[2024-11-24T15:01:42.051] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\outputs\default\pack.info cache by regenerate.
+[2024-11-24T15:01:42.051] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\loader_out\default\ets cache from map.
+[2024-11-24T15:01:42.051] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2024-11-24T15:01:42.052] [DEBUG] debug-file - Update task entry:default@PackageHap output file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\outputs\default\entry-default-unsigned.hap cache.
+[2024-11-24T15:01:42.052] [DEBUG] debug-file - Update task entry:default@PackageHap output file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\outputs\default\mapping\sourceMaps.map cache.
+[2024-11-24T15:01:42.053] [DEBUG] debug-file - Incremental task entry:default@PackageHap post-execution cost:33 ms .
+[2024-11-24T15:01:42.053] [DEBUG] debug-file - Update task entry:default@SignHap input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\outputs\default\entry-default-unsigned.hap cache from map.
+[2024-11-24T15:01:42.053] [DEBUG] debug-file - Update task entry:default@SignHap output file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\outputs\default\entry-default-signed.hap cache.
+[2024-11-24T15:01:42.053] [DEBUG] debug-file - Incremental task entry:default@SignHap post-execution cost:1 ms .
+[2024-11-24T15:01:42.079] [DEBUG] debug-file - Cleanup worker 14.
+[2024-11-24T15:01:42.079] [DEBUG] debug-file - Worker 14 has been cleaned up.
+[2024-11-24T15:01:42.079] [DEBUG] debug-file - Current idle worker size: 1.
+[2024-11-24T15:01:42.079] [DEBUG] debug-file - Current resident worker size: 2.
+[2024-11-24T15:01:42.080] [DEBUG] debug-file - hvigor build process will be closed.
+[2024-11-24T15:01:42.086] [DEBUG] debug-file - session manager: send message to worker process.
+[2024-11-24T15:01:42.086] [DEBUG] debug-file - session manager: send message to worker process.
+[2024-11-24T15:01:42.086] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-11-24T15:01:42.086] [DEBUG] debug-file - worker[14] exits with exit code 1.
+[2024-11-24T15:01:42.087] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-11-24T15:02:42.066] [DEBUG] debug-file - session manager: set active socket. socketId=UyFeYwe0zYAVaNkUAAAT
+[2024-11-24T15:02:42.072] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-11-24T15:02:42.086] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2024-11-24T15:02:42.098] [DEBUG] debug-file - Cache service initialization finished in 11 ms 
+[2024-11-24T15:02:42.113] [DEBUG] debug-file - hvigorfile, resolving C:\Users\ZUO\Desktop\HMNEXT_Guardian\hvigorfile.ts
+[2024-11-24T15:02:42.119] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2024-11-24T15:02:42.119] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2024-11-24T15:02:42.129] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2024-11-24T15:02:42.129] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2024-11-24T15:02:42.129] [DEBUG] debug-file - Product 'default' build option: {}
+[2024-11-24T15:02:42.129] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2024-11-24T15:02:42.131] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2024-11-24T15:02:42.134] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2024-11-24T15:02:42.146] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2024-11-24T15:02:42.176] [DEBUG] debug-file - Sdk init in 39 ms 
+[2024-11-24T15:02:42.215] [DEBUG] debug-file - Project task initialization takes 37 ms 
+[2024-11-24T15:02:42.215] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2024-11-24T15:02:42.215] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\ZUO\Desktop\HMNEXT_Guardian\hvigorfile.ts
+[2024-11-24T15:02:42.215] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\ZUO\Desktop\HMNEXT_Guardian\hvigorfile.ts
+[2024-11-24T15:02:42.226] [DEBUG] debug-file - hvigorfile, resolving C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\hvigorfile.ts
+[2024-11-24T15:02:42.231] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2024-11-24T15:02:42.232] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2024-11-24T15:02:42.238] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2024-11-24T15:02:42.238] [DEBUG] debug-file - Target 'default' config: {}
+[2024-11-24T15:02:42.239] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2024-11-24T15:02:42.239] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2024-11-24T15:02:42.239] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2024-11-24T15:02:42.239] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2024-11-24T15:02:42.239] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2024-11-24T15:02:42.243] [DEBUG] debug-file - Module entry task initialization takes 1 ms 
+[2024-11-24T15:02:42.243] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2024-11-24T15:02:42.243] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\hvigorfile.ts
+[2024-11-24T15:02:42.243] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\hvigorfile.ts
+[2024-11-24T15:02:42.260] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 16 ms 
+[2024-11-24T15:02:42.262] [DEBUG] debug-file - project has submodules:entry
+[2024-11-24T15:02:42.264] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2024-11-24T15:02:42.271] [DEBUG] debug-file - load to the disk finished
+[2024-11-24T15:02:42.289] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:02:42.291] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:02:42.292] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:02:42.293] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:02:42.294] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:02:42.296] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:02:42.298] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:02:42.299] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:02:42.301] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:02:42.302] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:02:42.303] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:02:42.305] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:02:42.306] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:02:42.307] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:02:42.308] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:02:42.309] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:02:42.310] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:02:42.312] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:02:42.313] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:02:42.314] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:02:42.316] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:02:42.317] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:02:42.318] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:02:42.320] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:02:42.322] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:02:42.323] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:02:42.324] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:02:42.325] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:02:42.326] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:02:42.328] [DEBUG] debug-file - Module HMNEXT_Guardian Collected Dependency: C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\dayjs@1.11.7\oh_modules\dayjs,C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+crypto-js@2.0.4-rc.1\oh_modules\@ohos\crypto-js,C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@wolfx+lodash@4.17.21-rc.2\oh_modules\@wolfx\lodash,C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios
+[2024-11-24T15:02:42.328] [DEBUG] debug-file - Module HMNEXT_Guardian's total dependency: 4
+[2024-11-24T15:02:42.332] [DEBUG] debug-file - Module entry Collected Dependency: C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\dayjs@1.11.7\oh_modules\dayjs,C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+crypto-js@2.0.4-rc.1\oh_modules\@ohos\crypto-js,C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@wolfx+lodash@4.17.21-rc.2\oh_modules\@wolfx\lodash,C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios
+[2024-11-24T15:02:42.332] [DEBUG] debug-file - Module entry's total dependency: 4
+[2024-11-24T15:02:42.336] [DEBUG] debug-file - Configuration phase cost:232 ms 
+[2024-11-24T15:02:42.339] [DEBUG] debug-file - Configuration task cost before running: 264 ms 
+[2024-11-24T15:02:42.342] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:02:42.342] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:02:42.345] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2024-11-24T15:02:42.354] [DEBUG] debug-file - Incremental task entry:default@PreBuild pre-execution cost: 5 ms .
+[2024-11-24T15:02:42.354] [DEBUG] debug-file - entry : default@PreBuild cost memory 0.2680816650390625
+[2024-11-24T15:02:42.357] [INFO] debug-file - UP-TO-DATE :entry:default@PreBuild...  
+[2024-11-24T15:02:42.359] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:02:42.359] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:02:42.360] [DEBUG] debug-file - Executing task :entry:default@GenerateMetadata
+[2024-11-24T15:02:42.363] [DEBUG] debug-file - Incremental task entry:default@GenerateMetadata pre-execution cost: 3 ms .
+[2024-11-24T15:02:42.363] [DEBUG] debug-file - entry : default@GenerateMetadata cost memory -1.6031570434570312
+[2024-11-24T15:02:42.364] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateMetadata...  
+[2024-11-24T15:02:42.367] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:02:42.367] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:02:42.368] [DEBUG] debug-file - Executing task :entry:default@ConfigureCmake
+[2024-11-24T15:02:42.369] [DEBUG] debug-file - entry : default@ConfigureCmake cost memory 0.01302337646484375
+[2024-11-24T15:02:42.369] [DEBUG] debug-file - runTaskFromQueue task cost before running: 294 ms 
+[2024-11-24T15:02:42.369] [INFO] debug-file - Finished :entry:default@ConfigureCmake... after 1 ms 
+[2024-11-24T15:02:42.371] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:02:42.371] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:02:42.374] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2024-11-24T15:02:42.379] [DEBUG] debug-file - Incremental task entry:default@MergeProfile pre-execution cost: 5 ms .
+[2024-11-24T15:02:42.379] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.1377105712890625
+[2024-11-24T15:02:42.380] [INFO] debug-file - UP-TO-DATE :entry:default@MergeProfile...  
+[2024-11-24T15:02:42.385] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:02:42.385] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:02:42.386] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2024-11-24T15:02:42.391] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile pre-execution cost: 4 ms .
+[2024-11-24T15:02:42.391] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.11386871337890625
+[2024-11-24T15:02:42.392] [INFO] debug-file - UP-TO-DATE :entry:default@CreateBuildProfile...  
+[2024-11-24T15:02:42.394] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:02:42.395] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:02:42.395] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2024-11-24T15:02:42.396] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.0131988525390625
+[2024-11-24T15:02:42.396] [DEBUG] debug-file - runTaskFromQueue task cost before running: 320 ms 
+[2024-11-24T15:02:42.396] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2024-11-24T15:02:42.398] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:02:42.399] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:02:42.409] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2024-11-24T15:02:42.409] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.03043365478515625
+[2024-11-24T15:02:42.409] [DEBUG] debug-file - runTaskFromQueue task cost before running: 334 ms 
+[2024-11-24T15:02:42.410] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 1 ms 
+[2024-11-24T15:02:42.412] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:02:42.412] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:02:42.414] [DEBUG] debug-file - Executing task :entry:default@ProcessIntegratedHsp
+[2024-11-24T15:02:42.416] [DEBUG] debug-file - entry:default@ProcessIntegratedHsp is not up-to-date, since the output file 'C:\Users\ZUO\Desktop\HMNEXT_Guardian\build\cache\default\integrated_hsp\integratedHspCache.json' does not exist.
+[2024-11-24T15:02:42.416] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp pre-execution cost: 2 ms .
+[2024-11-24T15:02:42.416] [DEBUG] debug-file - entry : default@ProcessIntegratedHsp cost memory 0.09108734130859375
+[2024-11-24T15:02:42.416] [DEBUG] debug-file - runTaskFromQueue task cost before running: 341 ms 
+[2024-11-24T15:02:42.417] [INFO] debug-file - Finished :entry:default@ProcessIntegratedHsp... after 3 ms 
+[2024-11-24T15:02:42.419] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:02:42.419] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:02:42.420] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2024-11-24T15:02:42.420] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory 0.0140228271484375
+[2024-11-24T15:02:42.420] [DEBUG] debug-file - runTaskFromQueue task cost before running: 345 ms 
+[2024-11-24T15:02:42.420] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 1 ms 
+[2024-11-24T15:02:42.422] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:02:42.422] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:02:42.422] [DEBUG] debug-file - Executing task :entry:default@MakePackInfo
+[2024-11-24T15:02:42.426] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo pre-execution cost: 3 ms .
+[2024-11-24T15:02:42.426] [DEBUG] debug-file - entry : default@MakePackInfo cost memory 0.1300048828125
+[2024-11-24T15:02:42.426] [INFO] debug-file - UP-TO-DATE :entry:default@MakePackInfo...  
+[2024-11-24T15:02:42.428] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:02:42.428] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:02:42.429] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2024-11-24T15:02:42.431] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile pre-execution cost: 2 ms .
+[2024-11-24T15:02:42.431] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 0.05858612060546875
+[2024-11-24T15:02:42.431] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessProfile...  
+[2024-11-24T15:02:42.433] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:02:42.433] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:02:42.435] [DEBUG] debug-file - Executing task :entry:default@SyscapTransform
+[2024-11-24T15:02:42.437] [DEBUG] debug-file - entry:default@SyscapTransform is not up-to-date, since the output file 'C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\syscap\default\rpcid.sc' does not exist.
+[2024-11-24T15:02:42.438] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform pre-execution cost: 2 ms .
+[2024-11-24T15:02:42.438] [DEBUG] debug-file - entry : default@SyscapTransform cost memory 0.1198883056640625
+[2024-11-24T15:02:42.438] [DEBUG] debug-file - runTaskFromQueue task cost before running: 363 ms 
+[2024-11-24T15:02:42.438] [INFO] debug-file - Finished :entry:default@SyscapTransform... after 3 ms 
+[2024-11-24T15:02:42.440] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:02:42.440] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:02:42.442] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2024-11-24T15:02:42.447] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap pre-execution cost: 5 ms .
+[2024-11-24T15:02:42.447] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.2110595703125
+[2024-11-24T15:02:42.450] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessRouterMap...  
+[2024-11-24T15:02:42.452] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:02:42.452] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:02:42.453] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithNinja
+[2024-11-24T15:02:42.453] [DEBUG] debug-file - entry : default@BuildNativeWithNinja cost memory 0.031890869140625
+[2024-11-24T15:02:42.453] [DEBUG] debug-file - runTaskFromQueue task cost before running: 378 ms 
+[2024-11-24T15:02:42.454] [INFO] debug-file - Finished :entry:default@BuildNativeWithNinja... after 1 ms 
+[2024-11-24T15:02:42.455] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:02:42.455] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:02:42.456] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@ProcessResource
+[2024-11-24T15:02:42.460] [DEBUG] debug-file - Executing task :entry:default@ProcessResource
+[2024-11-24T15:02:42.461] [DEBUG] debug-file - Incremental task entry:default@ProcessResource pre-execution cost: 1 ms .
+[2024-11-24T15:02:42.461] [DEBUG] debug-file - entry : default@ProcessResource cost memory 0.12197113037109375
+[2024-11-24T15:02:42.464] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessResource...  
+[2024-11-24T15:02:42.467] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:02:42.467] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:02:42.479] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2024-11-24T15:02:42.495] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson pre-execution cost: 11 ms .
+[2024-11-24T15:02:42.496] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.6956710815429688
+[2024-11-24T15:02:42.502] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateLoaderJson...  
+[2024-11-24T15:02:42.505] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:02:42.505] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:02:42.511] [DEBUG] debug-file - Executing task :entry:default@ProcessLibs
+[2024-11-24T15:02:42.517] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs pre-execution cost: 5 ms .
+[2024-11-24T15:02:42.517] [DEBUG] debug-file - entry : default@ProcessLibs cost memory 0.11960601806640625
+[2024-11-24T15:02:42.519] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessLibs...  
+[2024-11-24T15:02:42.521] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:02:42.521] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:02:42.522] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@CompileResource
+[2024-11-24T15:02:42.528] [DEBUG] debug-file - Executing task :entry:default@CompileResource
+[2024-11-24T15:02:42.630] [DEBUG] debug-file - Incremental task entry:default@CompileResource pre-execution cost: 101 ms .
+[2024-11-24T15:02:42.630] [DEBUG] debug-file - entry : default@CompileResource cost memory 0.38788604736328125
+[2024-11-24T15:02:42.631] [INFO] debug-file - UP-TO-DATE :entry:default@CompileResource...  
+[2024-11-24T15:02:42.633] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:02:42.633] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:02:42.635] [DEBUG] debug-file - Executing task :entry:default@DoNativeStrip
+[2024-11-24T15:02:42.637] [DEBUG] debug-file - Incremental task entry:default@DoNativeStrip pre-execution cost: 2 ms .
+[2024-11-24T15:02:42.637] [DEBUG] debug-file - entry : default@DoNativeStrip cost memory 0.06047821044921875
+[2024-11-24T15:02:42.638] [INFO] debug-file - UP-TO-DATE :entry:default@DoNativeStrip...  
+[2024-11-24T15:02:42.639] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:02:42.639] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:02:42.643] [DEBUG] debug-file - Executing task :entry:default@CompileArkTS
+[2024-11-24T15:02:42.700] [DEBUG] debug-file - entry:default@CompileArkTS is not up-to-date, since the input file 'C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\src\main\ets' has been changed.
+[2024-11-24T15:02:42.700] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS pre-execution cost: 47 ms .
+[2024-11-24T15:02:42.721] [DEBUG] debug-file - build config:
+[2024-11-24T15:02:42.722] [DEBUG] debug-file - {
+  moduleType: 'entry',
+  perf: 0,
+  targetName: '.default',
+  packageManagerType: 'ohpm',
+  localPropertiesPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\local.properties',
+  isPreview: false,
+  isOhosTest: false,
+  isLocalTest: false,
+  buildMode: 'Debug',
+  watchMode: 'false',
+  aceProfilePath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile',
+  etsLoaderPath: 'D:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader',
+  modulePath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry',
+  testFrameworkPar: {
+    testMode: undefined,
+    coveragePathFilter: undefined,
+    coverageMode: undefined
+  },
+  needCoverageInsert: false,
+  debugLine: false,
+  projectTopDir: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian',
+  compileSdkVersion: 12,
+  compatibleSdkVersion: 12,
+  compatibleSdkVersionStage: 'beta1',
+  bundleName: 'com.itheima.hm_guardian',
+  etsLoaderVersion: '5.0.0.71',
+  etsLoaderReleaseType: 'Release',
+  aotCompileMode: 'type',
+  apPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\modules.ap',
+  entryModuleName: 'entry',
+  entryModuleVersion: '1.0.0',
+  entryPackageName: 'entry',
+  allModuleNameHash: 'e46fcfd10deefe3368154df7a614adb3',
+  externalApiPaths: [
+    'D:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\hms\\ets'
+  ],
+  compilerTypes: undefined,
+  isCrossplatform: false,
+  hvigorPluginFile: undefined,
+  compilePluginPath: undefined,
+  buildGeneratedProfilePath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\generated\\profile\\default',
+  bundleType: 'app',
+  arkTSVersion: undefined,
+  apiVersion: 12,
+  needCompleteSourcesMap: false,
+  isFaMode: false,
+  strictMode: undefined,
+  buildDir: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build',
+  deviceTypes: [ 'phone' ],
+  useNormalizedOHMUrl: false,
+  pkgContextInfo: undefined,
+  ohPackagePathMap: {},
+  dependencyAliasMap: {},
+  permission: { requestPermissions: undefined, definePermissions: undefined },
+  integratedHsp: false,
+  projectArkOption: undefined,
+  sourceMapDir: undefined,
+  branchElimination: false,
+  transformLib: undefined,
+  caseSensitiveCheck: false,
+  tsImportSendable: false,
+  resolveConflictMode: true,
+  depName2RootPath: {},
+  rootPathSet: [ 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian' ],
+  useNativeResolver: true,
+  aceModuleJsonPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\res\\default\\module.json',
+  appResource: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\res\\default\\ResourceTable.txt',
+  rawFileResource: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\res\\default\\resources\\rawfile',
+  resourceTableHash: 'c968655ab29e904eb7c35069713eea9f',
+  runtimeOS: 'HarmonyOS',
+  sdkInfo: 'false:12:5.0.0.71:Release',
+  aceModuleRoot: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\src\\main\\ets',
+  compileMode: 'esmodule',
+  aceSuperVisualPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\src\\main\\supervisual',
+  aceBuildJson: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\loader\\default\\loader.json',
+  cachePath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule\\debug',
+  aceModuleBuild: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\loader_out\\default\\ets',
+  supportChunks: true,
+  declaredFilesPath: undefined,
+  pkgNameToPkgBriefInfo: {
+    '@ohos/crypto-js': {
+      pkgRoot: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\oh_modules\\.ohpm\\@ohos+crypto-js@2.0.4-rc.1\\oh_modules\\@ohos\\crypto-js',
+      pkgName: '@ohos/crypto-js',
+      sourceRoots: undefined
+    },
+    '@wolfx/lodash': {
+      pkgRoot: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\oh_modules\\.ohpm\\@wolfx+lodash@4.17.21-rc.2\\oh_modules\\@wolfx\\lodash',
+      pkgName: '@wolfx/lodash',
+      sourceRoots: undefined
+    },
+    '@ohos/axios': {
+      pkgRoot: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\oh_modules\\.ohpm\\@ohos+axios@2.2.0\\oh_modules\\@ohos\\axios',
+      pkgName: '@ohos/axios',
+      sourceRoots: undefined
+    },
+    entry: {
+      pkgRoot: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry',
+      originalSourceRoots: undefined,
+      sourceRoots: [Array],
+      pkgName: 'entry'
+    }
+  },
+  projectModel: {
+    'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\src\\main': {
+      moduleName: 'entry',
+      modulePkgPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry',
+      belongProjectPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian'
+    },
+    'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\src\\ohosTest': {
+      moduleName: 'entry_test',
+      modulePkgPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry',
+      belongProjectPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian'
+    },
+    'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry': {
+      moduleName: 'entry',
+      modulePkgPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry',
+      belongProjectPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian'
+    },
+    'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian': {
+      moduleName: 'HMNEXT_Guardian',
+      modulePkgPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian',
+      belongProjectPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian'
+    }
+  },
+  pkgJsonFileHash: 'cfd86348719fcac0c1411c8944b9e2d6',
+  allModulePaths: [ 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry' ],
+  routerMap: {},
+  obfuscationOptions: undefined,
+  compileBlockPkg: [],
+  overallProjectPaths: [ 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian' ],
+  mockParams: {
+    decorator: '@MockSetup',
+    packageName: '@ohos/hamock',
+    etsSourceRootPath: 'src/main/ets',
+    mockConfigPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\src\\mock\\mock-config.json5',
+    mockConfigKey2ModuleInfo: {}
+  },
+  otherPaths: {
+    'entry/*': [
+      '..\\*',
+      '..\\..\\..\\build\\default\\generated\\profile\\default\\*'
+    ]
+  },
+  collectImportersConfig: undefined
+}
+[2024-11-24T15:02:42.722] [DEBUG] debug-file - Compile arkts with external api path: D:\Program Files\Huawei\DevEco Studio\sdk\default\hms\ets
+[2024-11-24T15:02:42.723] [DEBUG] debug-file - default@CompileArkTS work[21] is submitted.
+[2024-11-24T15:02:42.724] [DEBUG] debug-file - default@CompileArkTS work[21] is pushed to ready queue.
+[2024-11-24T15:02:42.724] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2024-11-24T15:02:42.724] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2024-11-24T15:02:42.724] [DEBUG] debug-file - A work dispatched to worker[13] failed because unable to get work from ready queue.
+[2024-11-24T15:02:42.724] [DEBUG] debug-file - A work dispatched to worker[12] failed because unable to get work from ready queue.
+[2024-11-24T15:02:42.725] [DEBUG] debug-file - A work dispatched to worker[11] failed because unable to get work from ready queue.
+[2024-11-24T15:02:42.725] [DEBUG] debug-file - A work dispatched to worker[10] failed because unable to get work from ready queue.
+[2024-11-24T15:02:42.725] [DEBUG] debug-file - A work dispatched to worker[9] failed because unable to get work from ready queue.
+[2024-11-24T15:02:42.725] [DEBUG] debug-file - A work dispatched to worker[8] failed because unable to get work from ready queue.
+[2024-11-24T15:02:42.725] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2024-11-24T15:02:42.725] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2024-11-24T15:02:42.725] [DEBUG] debug-file - A work dispatched to worker[5] failed because unable to get work from ready queue.
+[2024-11-24T15:02:42.725] [DEBUG] debug-file - A work dispatched to worker[4] failed because unable to get work from ready queue.
+[2024-11-24T15:02:42.725] [DEBUG] debug-file - A work dispatched to worker[3] failed because unable to get work from ready queue.
+[2024-11-24T15:02:42.725] [DEBUG] debug-file - A work dispatched to worker[2] failed because unable to get work from ready queue.
+[2024-11-24T15:02:42.725] [DEBUG] debug-file - A work dispatched to worker[1] failed because unable to get work from ready queue.
+[2024-11-24T15:02:42.725] [DEBUG] debug-file - default@CompileArkTS work[21] has been dispatched to worker[0].
+[2024-11-24T15:02:42.725] [DEBUG] debug-file - default@CompileArkTS work[21] is dispatched.
+[2024-11-24T15:02:42.725] [DEBUG] debug-file - CopyResources startTime: 77056701922300
+[2024-11-24T15:02:42.726] [DEBUG] debug-file - default@CompileArkTS work[22] is submitted.
+[2024-11-24T15:02:42.727] [DEBUG] debug-file - default@CompileArkTS work[22] is pushed to ready queue.
+[2024-11-24T15:02:42.727] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2024-11-24T15:02:42.727] [DEBUG] debug-file - Create  resident worker with id: 14.
+[2024-11-24T15:02:42.728] [DEBUG] debug-file - default@CompileArkTS work[22] has been dispatched to worker[14].
+[2024-11-24T15:02:42.728] [DEBUG] debug-file - default@CompileArkTS work[22] is dispatched.
+[2024-11-24T15:02:42.728] [DEBUG] debug-file - entry : default@CompileArkTS cost memory -0.01735687255859375
+[2024-11-24T15:02:42.730] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:02:42.730] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:02:42.733] [DEBUG] debug-file - Executing task :entry:default@BuildJS
+[2024-11-24T15:02:42.740] [DEBUG] debug-file - entry : default@BuildJS cost memory 0.1667022705078125
+[2024-11-24T15:02:42.740] [DEBUG] debug-file - runTaskFromQueue task cost before running: 665 ms 
+[2024-11-24T15:02:42.740] [INFO] debug-file - Finished :entry:default@BuildJS... after 7 ms 
+[2024-11-24T15:02:42.743] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:02:42.744] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:02:42.746] [DEBUG] debug-file - Executing task :entry:default@CacheNativeLibs
+[2024-11-24T15:02:42.751] [DEBUG] debug-file - Incremental task entry:default@CacheNativeLibs pre-execution cost: 3 ms .
+[2024-11-24T15:02:42.751] [DEBUG] debug-file - entry : default@CacheNativeLibs cost memory 0.07717132568359375
+[2024-11-24T15:02:42.751] [INFO] debug-file - UP-TO-DATE :entry:default@CacheNativeLibs...  
+[2024-11-24T15:02:43.693] [DEBUG] debug-file - worker[14] has one work done.
+[2024-11-24T15:02:43.693] [DEBUG] debug-file - CopyResources is end, endTime: 77057669351700
+[2024-11-24T15:02:43.693] [DEBUG] debug-file - default@CompileArkTS work[22] done.
+[2024-11-24T15:02:43.693] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2024-11-24T15:02:44.589] [DEBUG] debug-file - worker[0] has one work done.
+[2024-11-24T15:02:44.589] [DEBUG] debug-file - Ark compile task finished.finished time is 77058564929400
+[2024-11-24T15:02:44.644] [DEBUG] debug-file - default@CompileArkTS work[21] done.
+[2024-11-24T15:02:44.644] [DEBUG] debug-file - A work dispatched to worker[0] failed because unable to get work from ready queue.
+[2024-11-24T15:02:44.647] [INFO] debug-file - Finished :entry:default@CompileArkTS... after 2 s 
+[2024-11-24T15:02:44.649] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:02:44.649] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:02:44.649] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgModuleJson
+[2024-11-24T15:02:44.652] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson pre-execution cost: 1 ms .
+[2024-11-24T15:02:44.652] [DEBUG] debug-file - entry : default@GeneratePkgModuleJson cost memory 0.08727264404296875
+[2024-11-24T15:02:44.652] [INFO] debug-file - UP-TO-DATE :entry:default@GeneratePkgModuleJson...  
+[2024-11-24T15:02:44.654] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:02:44.654] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:02:44.660] [DEBUG] debug-file - Executing task :entry:default@PackageHap
+[2024-11-24T15:02:44.691] [DEBUG] debug-file - entry:default@PackageHap is not up-to-date, since the input file 'C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\loader_out\default\ets' has been changed.
+[2024-11-24T15:02:44.691] [DEBUG] debug-file - Incremental task entry:default@PackageHap pre-execution cost: 31 ms .
+[2024-11-24T15:02:44.693] [DEBUG] debug-file - Use tool [D:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\toolchains\lib\app_packing_tool.jar]
+ [
+  'java',
+  '-Dfile.encoding=GBK',
+  '-jar',
+  'D:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\lib\\app_packing_tool.jar',
+  '--mode',
+  'hap',
+  '--force',
+  'true',
+  '--lib-path',
+  'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\stripped_native_libs\\default',
+  '--json-path',
+  'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\package\\default\\module.json',
+  '--resources-path',
+  'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\res\\default\\resources',
+  '--index-path',
+  'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\res\\default\\resources.index',
+  '--pack-info-path',
+  'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\outputs\\default\\pack.info',
+  '--out-path',
+  'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\outputs\\default\\entry-default-unsigned.hap',
+  '--ets-path',
+  'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\loader_out\\default\\ets'
+]
+[2024-11-24T15:02:44.695] [DEBUG] debug-file - default@PackageHap work[23] is submitted.
+[2024-11-24T15:02:44.695] [DEBUG] debug-file - default@PackageHap work[23] is pushed to ready queue.
+[2024-11-24T15:02:44.695] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2024-11-24T15:02:44.696] [DEBUG] debug-file - default@PackageHap work[23] has been dispatched to worker[14].
+[2024-11-24T15:02:44.696] [DEBUG] debug-file - default@PackageHap work[23] is dispatched.
+[2024-11-24T15:02:44.698] [DEBUG] debug-file - entry : default@PackageHap cost memory 2.8660354614257812
+[2024-11-24T15:02:44.784] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 502218752,
+  heapTotal: 73687040,
+  heapUsed: 52009696,
+  external: 2630482,
+  arrayBuffers: 578180
+} os memoryUsage :13.567607879638672
+[2024-11-24T15:02:45.555] [DEBUG] debug-file - worker[14] has one work done.
+[2024-11-24T15:02:45.555] [DEBUG] debug-file - default@PackageHap work[23] done.
+[2024-11-24T15:02:45.555] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2024-11-24T15:02:45.556] [INFO] debug-file - Finished :entry:default@PackageHap... after 895 ms 
+[2024-11-24T15:02:45.559] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:02:45.559] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:02:45.561] [DEBUG] debug-file - Executing task :entry:default@SignHap
+[2024-11-24T15:02:45.561] [WARN] debug-file - Will skip sign 'hos_hap'. No signingConfigs profile is configured in current project.
+             If needed, configure the signingConfigs in C:\Users\ZUO\Desktop\HMNEXT_Guardian\build-profile.json5.
+[2024-11-24T15:02:45.562] [DEBUG] debug-file - entry:default@SignHap is not up-to-date, since the input file 'C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\outputs\default\entry-default-unsigned.hap' has been changed.
+[2024-11-24T15:02:45.562] [DEBUG] debug-file - Incremental task entry:default@SignHap pre-execution cost: 1 ms .
+[2024-11-24T15:02:45.562] [DEBUG] debug-file - entry : default@SignHap cost memory 0.21297454833984375
+[2024-11-24T15:02:45.562] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 487 ms 
+[2024-11-24T15:02:45.563] [INFO] debug-file - Finished :entry:default@SignHap... after 2 ms 
+[2024-11-24T15:02:45.564] [DEBUG] debug-file - Executing task :entry:assembleHap
+[2024-11-24T15:02:45.564] [DEBUG] debug-file - entry : assembleHap cost memory 0.01171112060546875
+[2024-11-24T15:02:45.564] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 489 ms 
+[2024-11-24T15:02:45.564] [INFO] debug-file - Finished :entry:assembleHap... after 1 ms 
+[2024-11-24T15:02:45.576] [DEBUG] debug-file - BUILD SUCCESSFUL in 3 s 501 ms 
+[2024-11-24T15:02:45.577] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreBuild is up-to-date.
+[2024-11-24T15:02:45.577] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateMetadata is up-to-date.
+[2024-11-24T15:02:45.577] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MergeProfile is up-to-date.
+[2024-11-24T15:02:45.577] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CreateBuildProfile is up-to-date.
+[2024-11-24T15:02:45.577] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache.
+[2024-11-24T15:02:45.577] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2024-11-24T15:02:45.578] [DEBUG] debug-file - Update task entry:default@ProcessIntegratedHsp output file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\build\cache\default\integrated_hsp\integratedHspCache.json cache.
+[2024-11-24T15:02:45.578] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp post-execution cost:1 ms .
+[2024-11-24T15:02:45.578] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MakePackInfo is up-to-date.
+[2024-11-24T15:02:45.578] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessProfile is up-to-date.
+[2024-11-24T15:02:45.579] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:D:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\toolchains\syscap_tool.exe cache by regenerate.
+[2024-11-24T15:02:45.579] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:D:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\ets\api\device-define cache by regenerate.
+[2024-11-24T15:02:45.580] [DEBUG] debug-file - Update task entry:default@SyscapTransform output file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\syscap\default\rpcid.sc cache.
+[2024-11-24T15:02:45.580] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform post-execution cost:2 ms .
+[2024-11-24T15:02:45.580] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessRouterMap is up-to-date.
+[2024-11-24T15:02:45.580] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessResource is up-to-date.
+[2024-11-24T15:02:45.580] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateLoaderJson is up-to-date.
+[2024-11-24T15:02:45.580] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessLibs is up-to-date.
+[2024-11-24T15:02:45.580] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CompileResource is up-to-date.
+[2024-11-24T15:02:45.580] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@DoNativeStrip is up-to-date.
+[2024-11-24T15:02:45.584] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\loader\default cache by regenerate.
+[2024-11-24T15:02:45.584] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+crypto-js@2.0.4-rc.1\oh_modules\@ohos\crypto-js\index.ts cache by regenerate.
+[2024-11-24T15:02:45.585] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@wolfx+lodash@4.17.21-rc.2\oh_modules\@wolfx\lodash\src\main\ets\lodash.min.js cache by regenerate.
+[2024-11-24T15:02:45.585] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios\index.js cache by regenerate.
+[2024-11-24T15:02:45.585] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@wolfx+lodash@4.17.21-rc.2\oh_modules\@wolfx\lodash\src\main\ets cache by regenerate.
+[2024-11-24T15:02:45.586] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios\src\main\ets cache by regenerate.
+[2024-11-24T15:02:45.597] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\resources\rawfile cache by regenerate.
+[2024-11-24T15:02:45.598] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2024-11-24T15:02:45.598] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2024-11-24T15:02:45.598] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2024-11-24T15:02:45.599] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\src\main\ets cache from map.
+[2024-11-24T15:02:45.599] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2024-11-24T15:02:45.599] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\src\mock\mock-config.json5 cache by regenerate.
+[2024-11-24T15:02:45.599] [DEBUG] debug-file - Update task entry:default@CompileArkTS output file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\loader_out\default\ets cache.
+[2024-11-24T15:02:45.605] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS post-execution cost:25 ms .
+[2024-11-24T15:02:45.607] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\loader\default cache by regenerate.
+[2024-11-24T15:02:45.608] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+crypto-js@2.0.4-rc.1\oh_modules\@ohos\crypto-js\index.ts cache by regenerate.
+[2024-11-24T15:02:45.608] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@wolfx+lodash@4.17.21-rc.2\oh_modules\@wolfx\lodash\src\main\ets\lodash.min.js cache by regenerate.
+[2024-11-24T15:02:45.608] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios\index.js cache by regenerate.
+[2024-11-24T15:02:45.608] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+crypto-js@2.0.4-rc.1\oh_modules\@ohos\crypto-js\src\main\js cache by regenerate.
+[2024-11-24T15:02:45.609] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\resources\rawfile cache by regenerate.
+[2024-11-24T15:02:45.610] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2024-11-24T15:02:45.610] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2024-11-24T15:02:45.611] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2024-11-24T15:02:45.611] [DEBUG] debug-file - Update task entry:default@BuildJS output file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\loader_out\default\js cache.
+[2024-11-24T15:02:45.611] [DEBUG] debug-file - Incremental task entry:default@BuildJS post-execution cost:7 ms .
+[2024-11-24T15:02:45.611] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CacheNativeLibs is up-to-date.
+[2024-11-24T15:02:45.611] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GeneratePkgModuleJson is up-to-date.
+[2024-11-24T15:02:45.612] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\stripped_native_libs\default cache by regenerate.
+[2024-11-24T15:02:45.613] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2024-11-24T15:02:45.613] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\resources cache by regenerate.
+[2024-11-24T15:02:45.636] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\resources.index cache by regenerate.
+[2024-11-24T15:02:45.637] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\outputs\default\pack.info cache by regenerate.
+[2024-11-24T15:02:45.637] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\loader_out\default\ets cache from map.
+[2024-11-24T15:02:45.637] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2024-11-24T15:02:45.638] [DEBUG] debug-file - Update task entry:default@PackageHap output file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\outputs\default\entry-default-unsigned.hap cache.
+[2024-11-24T15:02:45.638] [DEBUG] debug-file - Update task entry:default@PackageHap output file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\outputs\default\mapping\sourceMaps.map cache.
+[2024-11-24T15:02:45.638] [DEBUG] debug-file - Incremental task entry:default@PackageHap post-execution cost:27 ms .
+[2024-11-24T15:02:45.638] [DEBUG] debug-file - Update task entry:default@SignHap input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\outputs\default\entry-default-unsigned.hap cache from map.
+[2024-11-24T15:02:45.638] [DEBUG] debug-file - Update task entry:default@SignHap output file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\outputs\default\entry-default-signed.hap cache.
+[2024-11-24T15:02:45.639] [DEBUG] debug-file - Incremental task entry:default@SignHap post-execution cost:1 ms .
+[2024-11-24T15:02:45.669] [DEBUG] debug-file - Cleanup worker 14.
+[2024-11-24T15:02:45.669] [DEBUG] debug-file - Worker 14 has been cleaned up.
+[2024-11-24T15:02:45.669] [DEBUG] debug-file - Current idle worker size: 1.
+[2024-11-24T15:02:45.669] [DEBUG] debug-file - Current resident worker size: 2.
+[2024-11-24T15:02:45.670] [DEBUG] debug-file - hvigor build process will be closed.
+[2024-11-24T15:02:45.675] [DEBUG] debug-file - session manager: send message to worker process.
+[2024-11-24T15:02:45.675] [DEBUG] debug-file - session manager: send message to worker process.
+[2024-11-24T15:02:45.675] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-11-24T15:02:45.676] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-11-24T15:02:45.676] [DEBUG] debug-file - worker[14] exits with exit code 1.
+[2024-11-24T15:03:40.307] [DEBUG] debug-file - session manager: set active socket. socketId=8QUMvcYDjOnSz5CZAAAV
+[2024-11-24T15:03:40.312] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-11-24T15:03:40.330] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2024-11-24T15:03:40.343] [DEBUG] debug-file - Cache service initialization finished in 13 ms 
+[2024-11-24T15:03:40.361] [DEBUG] debug-file - hvigorfile, resolving C:\Users\ZUO\Desktop\HMNEXT_Guardian\hvigorfile.ts
+[2024-11-24T15:03:40.368] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2024-11-24T15:03:40.368] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2024-11-24T15:03:40.379] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2024-11-24T15:03:40.379] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2024-11-24T15:03:40.379] [DEBUG] debug-file - Product 'default' build option: {}
+[2024-11-24T15:03:40.379] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2024-11-24T15:03:40.381] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2024-11-24T15:03:40.384] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2024-11-24T15:03:40.394] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2024-11-24T15:03:40.420] [DEBUG] debug-file - Sdk init in 35 ms 
+[2024-11-24T15:03:40.443] [DEBUG] debug-file - Project task initialization takes 23 ms 
+[2024-11-24T15:03:40.444] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2024-11-24T15:03:40.444] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\ZUO\Desktop\HMNEXT_Guardian\hvigorfile.ts
+[2024-11-24T15:03:40.444] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\ZUO\Desktop\HMNEXT_Guardian\hvigorfile.ts
+[2024-11-24T15:03:40.449] [DEBUG] debug-file - hvigorfile, resolving C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\hvigorfile.ts
+[2024-11-24T15:03:40.452] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2024-11-24T15:03:40.452] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2024-11-24T15:03:40.459] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2024-11-24T15:03:40.459] [DEBUG] debug-file - Target 'default' config: {}
+[2024-11-24T15:03:40.460] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2024-11-24T15:03:40.460] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2024-11-24T15:03:40.460] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2024-11-24T15:03:40.460] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2024-11-24T15:03:40.460] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2024-11-24T15:03:40.462] [DEBUG] debug-file - Module entry task initialization takes 1 ms 
+[2024-11-24T15:03:40.462] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2024-11-24T15:03:40.462] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\hvigorfile.ts
+[2024-11-24T15:03:40.462] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\hvigorfile.ts
+[2024-11-24T15:03:40.477] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 14 ms 
+[2024-11-24T15:03:40.478] [DEBUG] debug-file - project has submodules:entry
+[2024-11-24T15:03:40.480] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2024-11-24T15:03:40.486] [DEBUG] debug-file - load to the disk finished
+[2024-11-24T15:03:40.504] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:03:40.505] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:03:40.506] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:03:40.507] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:03:40.508] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:03:40.510] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:03:40.511] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:03:40.511] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:03:40.512] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:03:40.513] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:03:40.514] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:03:40.515] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:03:40.516] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:03:40.517] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:03:40.517] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:03:40.518] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:03:40.519] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:03:40.520] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:03:40.521] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:03:40.522] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:03:40.523] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:03:40.525] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:03:40.526] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:03:40.527] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:03:40.529] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:03:40.530] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:03:40.532] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:03:40.533] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:03:40.534] [WARN] debug-file - The current module 'HMNEXT_Guardian' has dependency which is not installed at its oh-package.json5.
+[2024-11-24T15:03:40.535] [DEBUG] debug-file - Module HMNEXT_Guardian Collected Dependency: C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\dayjs@1.11.7\oh_modules\dayjs,C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+crypto-js@2.0.4-rc.1\oh_modules\@ohos\crypto-js,C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@wolfx+lodash@4.17.21-rc.2\oh_modules\@wolfx\lodash,C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios
+[2024-11-24T15:03:40.535] [DEBUG] debug-file - Module HMNEXT_Guardian's total dependency: 4
+[2024-11-24T15:03:40.540] [DEBUG] debug-file - Module entry Collected Dependency: C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\dayjs@1.11.7\oh_modules\dayjs,C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+crypto-js@2.0.4-rc.1\oh_modules\@ohos\crypto-js,C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@wolfx+lodash@4.17.21-rc.2\oh_modules\@wolfx\lodash,C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios
+[2024-11-24T15:03:40.540] [DEBUG] debug-file - Module entry's total dependency: 4
+[2024-11-24T15:03:40.543] [DEBUG] debug-file - Configuration phase cost:192 ms 
+[2024-11-24T15:03:40.544] [DEBUG] debug-file - Configuration task cost before running: 228 ms 
+[2024-11-24T15:03:40.546] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:03:40.547] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:03:40.549] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2024-11-24T15:03:40.557] [DEBUG] debug-file - Incremental task entry:default@PreBuild pre-execution cost: 6 ms .
+[2024-11-24T15:03:40.557] [DEBUG] debug-file - entry : default@PreBuild cost memory 0.27886199951171875
+[2024-11-24T15:03:40.560] [INFO] debug-file - UP-TO-DATE :entry:default@PreBuild...  
+[2024-11-24T15:03:40.561] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:03:40.561] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:03:40.562] [DEBUG] debug-file - Executing task :entry:default@GenerateMetadata
+[2024-11-24T15:03:40.565] [DEBUG] debug-file - Incremental task entry:default@GenerateMetadata pre-execution cost: 3 ms .
+[2024-11-24T15:03:40.565] [DEBUG] debug-file - entry : default@GenerateMetadata cost memory -1.6081619262695312
+[2024-11-24T15:03:40.565] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateMetadata...  
+[2024-11-24T15:03:40.567] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:03:40.567] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:03:40.568] [DEBUG] debug-file - Executing task :entry:default@ConfigureCmake
+[2024-11-24T15:03:40.568] [DEBUG] debug-file - entry : default@ConfigureCmake cost memory 0.012908935546875
+[2024-11-24T15:03:40.568] [DEBUG] debug-file - runTaskFromQueue task cost before running: 252 ms 
+[2024-11-24T15:03:40.568] [INFO] debug-file - Finished :entry:default@ConfigureCmake... after 1 ms 
+[2024-11-24T15:03:40.571] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:03:40.571] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:03:40.572] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2024-11-24T15:03:40.577] [DEBUG] debug-file - Incremental task entry:default@MergeProfile pre-execution cost: 4 ms .
+[2024-11-24T15:03:40.577] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.1422271728515625
+[2024-11-24T15:03:40.578] [INFO] debug-file - UP-TO-DATE :entry:default@MergeProfile...  
+[2024-11-24T15:03:40.581] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:03:40.581] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:03:40.583] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2024-11-24T15:03:40.588] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile pre-execution cost: 5 ms .
+[2024-11-24T15:03:40.589] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.11594390869140625
+[2024-11-24T15:03:40.590] [INFO] debug-file - UP-TO-DATE :entry:default@CreateBuildProfile...  
+[2024-11-24T15:03:40.592] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:03:40.592] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:03:40.593] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2024-11-24T15:03:40.594] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.01314544677734375
+[2024-11-24T15:03:40.594] [DEBUG] debug-file - runTaskFromQueue task cost before running: 277 ms 
+[2024-11-24T15:03:40.594] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2024-11-24T15:03:40.597] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:03:40.597] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:03:40.609] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2024-11-24T15:03:40.609] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.0303955078125
+[2024-11-24T15:03:40.609] [DEBUG] debug-file - runTaskFromQueue task cost before running: 293 ms 
+[2024-11-24T15:03:40.609] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 1 ms 
+[2024-11-24T15:03:40.611] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:03:40.611] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:03:40.613] [DEBUG] debug-file - Executing task :entry:default@ProcessIntegratedHsp
+[2024-11-24T15:03:40.615] [DEBUG] debug-file - entry:default@ProcessIntegratedHsp is not up-to-date, since the output file 'C:\Users\ZUO\Desktop\HMNEXT_Guardian\build\cache\default\integrated_hsp\integratedHspCache.json' does not exist.
+[2024-11-24T15:03:40.615] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp pre-execution cost: 2 ms .
+[2024-11-24T15:03:40.615] [DEBUG] debug-file - entry : default@ProcessIntegratedHsp cost memory 0.091156005859375
+[2024-11-24T15:03:40.615] [DEBUG] debug-file - runTaskFromQueue task cost before running: 299 ms 
+[2024-11-24T15:03:40.616] [INFO] debug-file - Finished :entry:default@ProcessIntegratedHsp... after 3 ms 
+[2024-11-24T15:03:40.618] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:03:40.618] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:03:40.619] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2024-11-24T15:03:40.619] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory 0.01396942138671875
+[2024-11-24T15:03:40.619] [DEBUG] debug-file - runTaskFromQueue task cost before running: 303 ms 
+[2024-11-24T15:03:40.619] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 1 ms 
+[2024-11-24T15:03:40.622] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:03:40.622] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:03:40.622] [DEBUG] debug-file - Executing task :entry:default@MakePackInfo
+[2024-11-24T15:03:40.624] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo pre-execution cost: 2 ms .
+[2024-11-24T15:03:40.625] [DEBUG] debug-file - entry : default@MakePackInfo cost memory 0.1322784423828125
+[2024-11-24T15:03:40.625] [INFO] debug-file - UP-TO-DATE :entry:default@MakePackInfo...  
+[2024-11-24T15:03:40.627] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:03:40.627] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:03:40.628] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2024-11-24T15:03:40.629] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile pre-execution cost: 2 ms .
+[2024-11-24T15:03:40.629] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 0.06029510498046875
+[2024-11-24T15:03:40.630] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessProfile...  
+[2024-11-24T15:03:40.633] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:03:40.633] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:03:40.634] [DEBUG] debug-file - Executing task :entry:default@SyscapTransform
+[2024-11-24T15:03:40.635] [DEBUG] debug-file - entry:default@SyscapTransform is not up-to-date, since the output file 'C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\syscap\default\rpcid.sc' does not exist.
+[2024-11-24T15:03:40.636] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform pre-execution cost: 2 ms .
+[2024-11-24T15:03:40.636] [DEBUG] debug-file - entry : default@SyscapTransform cost memory 0.1216278076171875
+[2024-11-24T15:03:40.636] [DEBUG] debug-file - runTaskFromQueue task cost before running: 319 ms 
+[2024-11-24T15:03:40.636] [INFO] debug-file - Finished :entry:default@SyscapTransform... after 2 ms 
+[2024-11-24T15:03:40.638] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:03:40.638] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:03:40.639] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2024-11-24T15:03:40.643] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap pre-execution cost: 4 ms .
+[2024-11-24T15:03:40.644] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.212921142578125
+[2024-11-24T15:03:40.645] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessRouterMap...  
+[2024-11-24T15:03:40.647] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:03:40.647] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:03:40.647] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithNinja
+[2024-11-24T15:03:40.648] [DEBUG] debug-file - entry : default@BuildNativeWithNinja cost memory 0.031890869140625
+[2024-11-24T15:03:40.648] [DEBUG] debug-file - runTaskFromQueue task cost before running: 332 ms 
+[2024-11-24T15:03:40.648] [INFO] debug-file - Finished :entry:default@BuildNativeWithNinja... after 1 ms 
+[2024-11-24T15:03:40.650] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:03:40.650] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:03:40.651] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@ProcessResource
+[2024-11-24T15:03:40.654] [DEBUG] debug-file - Executing task :entry:default@ProcessResource
+[2024-11-24T15:03:40.655] [DEBUG] debug-file - Incremental task entry:default@ProcessResource pre-execution cost: 1 ms .
+[2024-11-24T15:03:40.655] [DEBUG] debug-file - entry : default@ProcessResource cost memory 0.1304168701171875
+[2024-11-24T15:03:40.657] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessResource...  
+[2024-11-24T15:03:40.659] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:03:40.660] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:03:40.669] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2024-11-24T15:03:40.680] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson pre-execution cost: 8 ms .
+[2024-11-24T15:03:40.680] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.70416259765625
+[2024-11-24T15:03:40.685] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateLoaderJson...  
+[2024-11-24T15:03:40.686] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:03:40.686] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:03:40.690] [DEBUG] debug-file - Executing task :entry:default@ProcessLibs
+[2024-11-24T15:03:40.695] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs pre-execution cost: 4 ms .
+[2024-11-24T15:03:40.695] [DEBUG] debug-file - entry : default@ProcessLibs cost memory 0.12374114990234375
+[2024-11-24T15:03:40.696] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessLibs...  
+[2024-11-24T15:03:40.697] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:03:40.698] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:03:40.698] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@CompileResource
+[2024-11-24T15:03:40.702] [DEBUG] debug-file - Executing task :entry:default@CompileResource
+[2024-11-24T15:03:40.794] [DEBUG] debug-file - Incremental task entry:default@CompileResource pre-execution cost: 92 ms .
+[2024-11-24T15:03:40.794] [DEBUG] debug-file - entry : default@CompileResource cost memory 0.5760116577148438
+[2024-11-24T15:03:40.796] [INFO] debug-file - UP-TO-DATE :entry:default@CompileResource...  
+[2024-11-24T15:03:40.799] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:03:40.799] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:03:40.801] [DEBUG] debug-file - Executing task :entry:default@DoNativeStrip
+[2024-11-24T15:03:40.803] [DEBUG] debug-file - Incremental task entry:default@DoNativeStrip pre-execution cost: 2 ms .
+[2024-11-24T15:03:40.804] [DEBUG] debug-file - entry : default@DoNativeStrip cost memory 0.06233978271484375
+[2024-11-24T15:03:40.804] [INFO] debug-file - UP-TO-DATE :entry:default@DoNativeStrip...  
+[2024-11-24T15:03:40.807] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:03:40.807] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:03:40.811] [DEBUG] debug-file - Executing task :entry:default@CompileArkTS
+[2024-11-24T15:03:40.862] [DEBUG] debug-file - entry:default@CompileArkTS is not up-to-date, since the input file 'C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\src\main\ets' has been changed.
+[2024-11-24T15:03:40.862] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS pre-execution cost: 41 ms .
+[2024-11-24T15:03:40.879] [DEBUG] debug-file - build config:
+[2024-11-24T15:03:40.879] [DEBUG] debug-file - {
+  moduleType: 'entry',
+  perf: 0,
+  targetName: '.default',
+  packageManagerType: 'ohpm',
+  localPropertiesPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\local.properties',
+  isPreview: false,
+  isOhosTest: false,
+  isLocalTest: false,
+  buildMode: 'Debug',
+  watchMode: 'false',
+  aceProfilePath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile',
+  etsLoaderPath: 'D:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader',
+  modulePath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry',
+  testFrameworkPar: {
+    testMode: undefined,
+    coveragePathFilter: undefined,
+    coverageMode: undefined
+  },
+  needCoverageInsert: false,
+  debugLine: false,
+  projectTopDir: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian',
+  compileSdkVersion: 12,
+  compatibleSdkVersion: 12,
+  compatibleSdkVersionStage: 'beta1',
+  bundleName: 'com.itheima.hm_guardian',
+  etsLoaderVersion: '5.0.0.71',
+  etsLoaderReleaseType: 'Release',
+  aotCompileMode: 'type',
+  apPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\modules.ap',
+  entryModuleName: 'entry',
+  entryModuleVersion: '1.0.0',
+  entryPackageName: 'entry',
+  allModuleNameHash: 'e46fcfd10deefe3368154df7a614adb3',
+  externalApiPaths: [
+    'D:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\hms\\ets'
+  ],
+  compilerTypes: undefined,
+  isCrossplatform: false,
+  hvigorPluginFile: undefined,
+  compilePluginPath: undefined,
+  buildGeneratedProfilePath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\generated\\profile\\default',
+  bundleType: 'app',
+  arkTSVersion: undefined,
+  apiVersion: 12,
+  needCompleteSourcesMap: false,
+  isFaMode: false,
+  strictMode: undefined,
+  buildDir: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build',
+  deviceTypes: [ 'phone' ],
+  useNormalizedOHMUrl: false,
+  pkgContextInfo: undefined,
+  ohPackagePathMap: {},
+  dependencyAliasMap: {},
+  permission: { requestPermissions: undefined, definePermissions: undefined },
+  integratedHsp: false,
+  projectArkOption: undefined,
+  sourceMapDir: undefined,
+  branchElimination: false,
+  transformLib: undefined,
+  caseSensitiveCheck: false,
+  tsImportSendable: false,
+  resolveConflictMode: true,
+  depName2RootPath: {},
+  rootPathSet: [ 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian' ],
+  useNativeResolver: true,
+  aceModuleJsonPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\res\\default\\module.json',
+  appResource: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\res\\default\\ResourceTable.txt',
+  rawFileResource: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\res\\default\\resources\\rawfile',
+  resourceTableHash: 'c968655ab29e904eb7c35069713eea9f',
+  runtimeOS: 'HarmonyOS',
+  sdkInfo: 'false:12:5.0.0.71:Release',
+  aceModuleRoot: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\src\\main\\ets',
+  compileMode: 'esmodule',
+  aceSuperVisualPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\src\\main\\supervisual',
+  aceBuildJson: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\loader\\default\\loader.json',
+  cachePath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule\\debug',
+  aceModuleBuild: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\loader_out\\default\\ets',
+  supportChunks: true,
+  declaredFilesPath: undefined,
+  pkgNameToPkgBriefInfo: {
+    '@ohos/crypto-js': {
+      pkgRoot: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\oh_modules\\.ohpm\\@ohos+crypto-js@2.0.4-rc.1\\oh_modules\\@ohos\\crypto-js',
+      pkgName: '@ohos/crypto-js',
+      sourceRoots: undefined
+    },
+    '@wolfx/lodash': {
+      pkgRoot: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\oh_modules\\.ohpm\\@wolfx+lodash@4.17.21-rc.2\\oh_modules\\@wolfx\\lodash',
+      pkgName: '@wolfx/lodash',
+      sourceRoots: undefined
+    },
+    '@ohos/axios': {
+      pkgRoot: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\oh_modules\\.ohpm\\@ohos+axios@2.2.0\\oh_modules\\@ohos\\axios',
+      pkgName: '@ohos/axios',
+      sourceRoots: undefined
+    },
+    entry: {
+      pkgRoot: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry',
+      originalSourceRoots: undefined,
+      sourceRoots: [Array],
+      pkgName: 'entry'
+    }
+  },
+  projectModel: {
+    'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\src\\main': {
+      moduleName: 'entry',
+      modulePkgPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry',
+      belongProjectPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian'
+    },
+    'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\src\\ohosTest': {
+      moduleName: 'entry_test',
+      modulePkgPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry',
+      belongProjectPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian'
+    },
+    'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry': {
+      moduleName: 'entry',
+      modulePkgPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry',
+      belongProjectPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian'
+    },
+    'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian': {
+      moduleName: 'HMNEXT_Guardian',
+      modulePkgPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian',
+      belongProjectPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian'
+    }
+  },
+  pkgJsonFileHash: 'cfd86348719fcac0c1411c8944b9e2d6',
+  allModulePaths: [ 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry' ],
+  routerMap: {},
+  obfuscationOptions: undefined,
+  compileBlockPkg: [],
+  overallProjectPaths: [ 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian' ],
+  mockParams: {
+    decorator: '@MockSetup',
+    packageName: '@ohos/hamock',
+    etsSourceRootPath: 'src/main/ets',
+    mockConfigPath: 'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\src\\mock\\mock-config.json5',
+    mockConfigKey2ModuleInfo: {}
+  },
+  otherPaths: {
+    'entry/*': [
+      '..\\*',
+      '..\\..\\..\\build\\default\\generated\\profile\\default\\*'
+    ]
+  },
+  collectImportersConfig: undefined
+}
+[2024-11-24T15:03:40.879] [DEBUG] debug-file - Compile arkts with external api path: D:\Program Files\Huawei\DevEco Studio\sdk\default\hms\ets
+[2024-11-24T15:03:40.880] [DEBUG] debug-file - default@CompileArkTS work[24] is submitted.
+[2024-11-24T15:03:40.881] [DEBUG] debug-file - default@CompileArkTS work[24] is pushed to ready queue.
+[2024-11-24T15:03:40.881] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2024-11-24T15:03:40.881] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2024-11-24T15:03:40.881] [DEBUG] debug-file - A work dispatched to worker[13] failed because unable to get work from ready queue.
+[2024-11-24T15:03:40.881] [DEBUG] debug-file - A work dispatched to worker[12] failed because unable to get work from ready queue.
+[2024-11-24T15:03:40.881] [DEBUG] debug-file - A work dispatched to worker[11] failed because unable to get work from ready queue.
+[2024-11-24T15:03:40.881] [DEBUG] debug-file - A work dispatched to worker[10] failed because unable to get work from ready queue.
+[2024-11-24T15:03:40.881] [DEBUG] debug-file - A work dispatched to worker[9] failed because unable to get work from ready queue.
+[2024-11-24T15:03:40.881] [DEBUG] debug-file - A work dispatched to worker[8] failed because unable to get work from ready queue.
+[2024-11-24T15:03:40.881] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2024-11-24T15:03:40.881] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2024-11-24T15:03:40.881] [DEBUG] debug-file - A work dispatched to worker[5] failed because unable to get work from ready queue.
+[2024-11-24T15:03:40.881] [DEBUG] debug-file - A work dispatched to worker[4] failed because unable to get work from ready queue.
+[2024-11-24T15:03:40.881] [DEBUG] debug-file - A work dispatched to worker[3] failed because unable to get work from ready queue.
+[2024-11-24T15:03:40.881] [DEBUG] debug-file - A work dispatched to worker[2] failed because unable to get work from ready queue.
+[2024-11-24T15:03:40.881] [DEBUG] debug-file - A work dispatched to worker[1] failed because unable to get work from ready queue.
+[2024-11-24T15:03:40.881] [DEBUG] debug-file - default@CompileArkTS work[24] has been dispatched to worker[0].
+[2024-11-24T15:03:40.881] [DEBUG] debug-file - default@CompileArkTS work[24] is dispatched.
+[2024-11-24T15:03:40.881] [DEBUG] debug-file - CopyResources startTime: 77114857851200
+[2024-11-24T15:03:40.881] [DEBUG] debug-file - default@CompileArkTS work[25] is submitted.
+[2024-11-24T15:03:40.882] [DEBUG] debug-file - default@CompileArkTS work[25] is pushed to ready queue.
+[2024-11-24T15:03:40.883] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2024-11-24T15:03:40.883] [DEBUG] debug-file - Create  resident worker with id: 14.
+[2024-11-24T15:03:40.893] [DEBUG] debug-file - default@CompileArkTS work[25] has been dispatched to worker[14].
+[2024-11-24T15:03:40.893] [DEBUG] debug-file - default@CompileArkTS work[25] is dispatched.
+[2024-11-24T15:03:40.893] [DEBUG] debug-file - entry : default@CompileArkTS cost memory 0.35720062255859375
+[2024-11-24T15:03:40.896] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:03:40.896] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:03:40.900] [DEBUG] debug-file - Executing task :entry:default@BuildJS
+[2024-11-24T15:03:40.906] [DEBUG] debug-file - entry : default@BuildJS cost memory 0.1674041748046875
+[2024-11-24T15:03:40.906] [DEBUG] debug-file - runTaskFromQueue task cost before running: 590 ms 
+[2024-11-24T15:03:40.906] [INFO] debug-file - Finished :entry:default@BuildJS... after 7 ms 
+[2024-11-24T15:03:40.910] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:03:40.910] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:03:40.913] [DEBUG] debug-file - Executing task :entry:default@CacheNativeLibs
+[2024-11-24T15:03:40.916] [DEBUG] debug-file - Incremental task entry:default@CacheNativeLibs pre-execution cost: 3 ms .
+[2024-11-24T15:03:40.916] [DEBUG] debug-file - entry : default@CacheNativeLibs cost memory 0.07923126220703125
+[2024-11-24T15:03:40.917] [INFO] debug-file - UP-TO-DATE :entry:default@CacheNativeLibs...  
+[2024-11-24T15:03:41.881] [DEBUG] debug-file - worker[14] has one work done.
+[2024-11-24T15:03:41.882] [DEBUG] debug-file - CopyResources is end, endTime: 77115858135300
+[2024-11-24T15:03:41.882] [DEBUG] debug-file - default@CompileArkTS work[25] done.
+[2024-11-24T15:03:41.882] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2024-11-24T15:03:42.766] [DEBUG] debug-file - Ark compile task finished.finished time is 77116742295800
+[2024-11-24T15:03:42.766] [DEBUG] debug-file - worker[0] has one work done.
+[2024-11-24T15:03:42.832] [DEBUG] debug-file - default@CompileArkTS work[24] done.
+[2024-11-24T15:03:42.833] [DEBUG] debug-file - A work dispatched to worker[0] failed because unable to get work from ready queue.
+[2024-11-24T15:03:42.837] [INFO] debug-file - Finished :entry:default@CompileArkTS... after 2 s 22 ms 
+[2024-11-24T15:03:42.838] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:03:42.838] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:03:42.839] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgModuleJson
+[2024-11-24T15:03:42.842] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson pre-execution cost: 2 ms .
+[2024-11-24T15:03:42.842] [DEBUG] debug-file - entry : default@GeneratePkgModuleJson cost memory 0.08979034423828125
+[2024-11-24T15:03:42.842] [INFO] debug-file - UP-TO-DATE :entry:default@GeneratePkgModuleJson...  
+[2024-11-24T15:03:42.845] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:03:42.845] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:03:42.849] [DEBUG] debug-file - Executing task :entry:default@PackageHap
+[2024-11-24T15:03:42.892] [DEBUG] debug-file - entry:default@PackageHap is not up-to-date, since the input file 'C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\loader_out\default\ets' has been changed.
+[2024-11-24T15:03:42.892] [DEBUG] debug-file - Incremental task entry:default@PackageHap pre-execution cost: 41 ms .
+[2024-11-24T15:03:42.894] [DEBUG] debug-file - Use tool [D:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\toolchains\lib\app_packing_tool.jar]
+ [
+  'java',
+  '-Dfile.encoding=GBK',
+  '-jar',
+  'D:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\lib\\app_packing_tool.jar',
+  '--mode',
+  'hap',
+  '--force',
+  'true',
+  '--lib-path',
+  'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\stripped_native_libs\\default',
+  '--json-path',
+  'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\package\\default\\module.json',
+  '--resources-path',
+  'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\res\\default\\resources',
+  '--index-path',
+  'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\res\\default\\resources.index',
+  '--pack-info-path',
+  'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\outputs\\default\\pack.info',
+  '--out-path',
+  'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\outputs\\default\\entry-default-unsigned.hap',
+  '--ets-path',
+  'C:\\Users\\ZUO\\Desktop\\HMNEXT_Guardian\\entry\\build\\default\\intermediates\\loader_out\\default\\ets'
+]
+[2024-11-24T15:03:42.896] [DEBUG] debug-file - default@PackageHap work[26] is submitted.
+[2024-11-24T15:03:42.896] [DEBUG] debug-file - default@PackageHap work[26] is pushed to ready queue.
+[2024-11-24T15:03:42.896] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2024-11-24T15:03:42.897] [DEBUG] debug-file - default@PackageHap work[26] has been dispatched to worker[14].
+[2024-11-24T15:03:42.897] [DEBUG] debug-file - default@PackageHap work[26] is dispatched.
+[2024-11-24T15:03:42.899] [DEBUG] debug-file - entry : default@PackageHap cost memory -0.443359375
+[2024-11-24T15:03:42.984] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 504254464,
+  heapTotal: 73687040,
+  heapUsed: 52169720,
+  external: 2630482,
+  arrayBuffers: 578180
+} os memoryUsage :13.733551025390625
+[2024-11-24T15:03:43.800] [DEBUG] debug-file - worker[14] has one work done.
+[2024-11-24T15:03:43.800] [DEBUG] debug-file - default@PackageHap work[26] done.
+[2024-11-24T15:03:43.800] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2024-11-24T15:03:43.801] [INFO] debug-file - Finished :entry:default@PackageHap... after 951 ms 
+[2024-11-24T15:03:43.803] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-11-24T15:03:43.803] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-11-24T15:03:43.805] [DEBUG] debug-file - Executing task :entry:default@SignHap
+[2024-11-24T15:03:43.805] [WARN] debug-file - Will skip sign 'hos_hap'. No signingConfigs profile is configured in current project.
+             If needed, configure the signingConfigs in C:\Users\ZUO\Desktop\HMNEXT_Guardian\build-profile.json5.
+[2024-11-24T15:03:43.805] [DEBUG] debug-file - entry:default@SignHap is not up-to-date, since the input file 'C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\outputs\default\entry-default-unsigned.hap' has been changed.
+[2024-11-24T15:03:43.806] [DEBUG] debug-file - Incremental task entry:default@SignHap pre-execution cost: 1 ms .
+[2024-11-24T15:03:43.806] [DEBUG] debug-file - entry : default@SignHap cost memory 0.12328338623046875
+[2024-11-24T15:03:43.806] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 489 ms 
+[2024-11-24T15:03:43.806] [INFO] debug-file - Finished :entry:default@SignHap... after 2 ms 
+[2024-11-24T15:03:43.807] [DEBUG] debug-file - Executing task :entry:assembleHap
+[2024-11-24T15:03:43.807] [DEBUG] debug-file - entry : assembleHap cost memory 0.0116424560546875
+[2024-11-24T15:03:43.807] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 491 ms 
+[2024-11-24T15:03:43.807] [INFO] debug-file - Finished :entry:assembleHap... after 1 ms 
+[2024-11-24T15:03:43.818] [DEBUG] debug-file - BUILD SUCCESSFUL in 3 s 501 ms 
+[2024-11-24T15:03:43.818] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreBuild is up-to-date.
+[2024-11-24T15:03:43.818] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateMetadata is up-to-date.
+[2024-11-24T15:03:43.818] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MergeProfile is up-to-date.
+[2024-11-24T15:03:43.818] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CreateBuildProfile is up-to-date.
+[2024-11-24T15:03:43.818] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache.
+[2024-11-24T15:03:43.819] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2024-11-24T15:03:43.819] [DEBUG] debug-file - Update task entry:default@ProcessIntegratedHsp output file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\build\cache\default\integrated_hsp\integratedHspCache.json cache.
+[2024-11-24T15:03:43.819] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp post-execution cost:1 ms .
+[2024-11-24T15:03:43.820] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MakePackInfo is up-to-date.
+[2024-11-24T15:03:43.820] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessProfile is up-to-date.
+[2024-11-24T15:03:43.820] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:D:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\toolchains\syscap_tool.exe cache by regenerate.
+[2024-11-24T15:03:43.820] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:D:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\ets\api\device-define cache by regenerate.
+[2024-11-24T15:03:43.821] [DEBUG] debug-file - Update task entry:default@SyscapTransform output file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\syscap\default\rpcid.sc cache.
+[2024-11-24T15:03:43.821] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform post-execution cost:2 ms .
+[2024-11-24T15:03:43.821] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessRouterMap is up-to-date.
+[2024-11-24T15:03:43.821] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessResource is up-to-date.
+[2024-11-24T15:03:43.821] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateLoaderJson is up-to-date.
+[2024-11-24T15:03:43.821] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessLibs is up-to-date.
+[2024-11-24T15:03:43.821] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CompileResource is up-to-date.
+[2024-11-24T15:03:43.821] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@DoNativeStrip is up-to-date.
+[2024-11-24T15:03:43.824] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\loader\default cache by regenerate.
+[2024-11-24T15:03:43.825] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+crypto-js@2.0.4-rc.1\oh_modules\@ohos\crypto-js\index.ts cache by regenerate.
+[2024-11-24T15:03:43.825] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@wolfx+lodash@4.17.21-rc.2\oh_modules\@wolfx\lodash\src\main\ets\lodash.min.js cache by regenerate.
+[2024-11-24T15:03:43.825] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios\index.js cache by regenerate.
+[2024-11-24T15:03:43.826] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@wolfx+lodash@4.17.21-rc.2\oh_modules\@wolfx\lodash\src\main\ets cache by regenerate.
+[2024-11-24T15:03:43.827] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios\src\main\ets cache by regenerate.
+[2024-11-24T15:03:43.839] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\resources\rawfile cache by regenerate.
+[2024-11-24T15:03:43.840] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2024-11-24T15:03:43.840] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2024-11-24T15:03:43.840] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2024-11-24T15:03:43.841] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\src\main\ets cache from map.
+[2024-11-24T15:03:43.841] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2024-11-24T15:03:43.841] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\src\mock\mock-config.json5 cache by regenerate.
+[2024-11-24T15:03:43.841] [DEBUG] debug-file - Update task entry:default@CompileArkTS output file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\loader_out\default\ets cache.
+[2024-11-24T15:03:43.849] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS post-execution cost:28 ms .
+[2024-11-24T15:03:43.851] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\loader\default cache by regenerate.
+[2024-11-24T15:03:43.852] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+crypto-js@2.0.4-rc.1\oh_modules\@ohos\crypto-js\index.ts cache by regenerate.
+[2024-11-24T15:03:43.852] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@wolfx+lodash@4.17.21-rc.2\oh_modules\@wolfx\lodash\src\main\ets\lodash.min.js cache by regenerate.
+[2024-11-24T15:03:43.852] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios\index.js cache by regenerate.
+[2024-11-24T15:03:43.853] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\oh_modules\.ohpm\@ohos+crypto-js@2.0.4-rc.1\oh_modules\@ohos\crypto-js\src\main\js cache by regenerate.
+[2024-11-24T15:03:43.855] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\resources\rawfile cache by regenerate.
+[2024-11-24T15:03:43.856] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2024-11-24T15:03:43.856] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2024-11-24T15:03:43.856] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2024-11-24T15:03:43.857] [DEBUG] debug-file - Update task entry:default@BuildJS output file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\loader_out\default\js cache.
+[2024-11-24T15:03:43.857] [DEBUG] debug-file - Incremental task entry:default@BuildJS post-execution cost:9 ms .
+[2024-11-24T15:03:43.857] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CacheNativeLibs is up-to-date.
+[2024-11-24T15:03:43.857] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GeneratePkgModuleJson is up-to-date.
+[2024-11-24T15:03:43.858] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\stripped_native_libs\default cache by regenerate.
+[2024-11-24T15:03:43.859] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2024-11-24T15:03:43.859] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\resources cache by regenerate.
+[2024-11-24T15:03:43.885] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\res\default\resources.index cache by regenerate.
+[2024-11-24T15:03:43.885] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\outputs\default\pack.info cache by regenerate.
+[2024-11-24T15:03:43.885] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\intermediates\loader_out\default\ets cache from map.
+[2024-11-24T15:03:43.885] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2024-11-24T15:03:43.886] [DEBUG] debug-file - Update task entry:default@PackageHap output file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\outputs\default\entry-default-unsigned.hap cache.
+[2024-11-24T15:03:43.886] [DEBUG] debug-file - Update task entry:default@PackageHap output file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\outputs\default\mapping\sourceMaps.map cache.
+[2024-11-24T15:03:43.887] [DEBUG] debug-file - Incremental task entry:default@PackageHap post-execution cost:30 ms .
+[2024-11-24T15:03:43.887] [DEBUG] debug-file - Update task entry:default@SignHap input file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\outputs\default\entry-default-unsigned.hap cache from map.
+[2024-11-24T15:03:43.887] [DEBUG] debug-file - Update task entry:default@SignHap output file:C:\Users\ZUO\Desktop\HMNEXT_Guardian\entry\build\default\outputs\default\entry-default-signed.hap cache.
+[2024-11-24T15:03:43.887] [DEBUG] debug-file - Incremental task entry:default@SignHap post-execution cost:1 ms .
+[2024-11-24T15:03:43.915] [DEBUG] debug-file - Cleanup worker 14.
+[2024-11-24T15:03:43.915] [DEBUG] debug-file - Worker 14 has been cleaned up.
+[2024-11-24T15:03:43.915] [DEBUG] debug-file - Current idle worker size: 1.
+[2024-11-24T15:03:43.915] [DEBUG] debug-file - Current resident worker size: 2.
+[2024-11-24T15:03:43.916] [DEBUG] debug-file - hvigor build process will be closed.
+[2024-11-24T15:03:43.921] [DEBUG] debug-file - session manager: send message to worker process.
+[2024-11-24T15:03:43.921] [DEBUG] debug-file - session manager: send message to worker process.
+[2024-11-24T15:03:43.921] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-11-24T15:03:43.921] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-11-24T15:03:43.922] [DEBUG] debug-file - worker[14] exits with exit code 1.

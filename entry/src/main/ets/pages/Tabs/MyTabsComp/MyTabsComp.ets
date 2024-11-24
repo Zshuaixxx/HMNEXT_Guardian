@@ -13,7 +13,7 @@ export struct MyTabsComp {
   @StorageLink(LOGIN_INFO) loginInfo: LoginInfoResponse = {}
   @StorageLink('topHeight') topHeight: number = 0
   // @Provide 装饰器和 @Consume 装饰器：与后代组件双向同步
-  @Consume @Watch('onTabsChanged') currentIndex: number
+  @Consume currentIndex: number
   /**
    * 设备名称
    */
@@ -247,5 +247,10 @@ export struct MyTabsComp {
     .backgroundImage('/common/images/MyPage_bg.png')
     .backgroundImageSize({ width: '100%' })
     .height('100%')
+    .onVisibleAreaChange([1], (isVisible: boolean, currentRatio: number) => {
+      if (isVisible) {
+        this.onTabsChanged()
+      }
+    })
   }
 }
